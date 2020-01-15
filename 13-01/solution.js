@@ -5,20 +5,14 @@ const age = 22;
 
 if (age < 13) {
   console.log(`${firstName} is a child`);
+} else if (age < 20) {
+  console.log(`${firstName} is a teenager`);
+} else if (age < 30) {
+  console.log(`${firstName} is a young adult`);
+} else if (age >= 30) {
+  console.log(`${firstName} is an adult`);
 } else {
-  if (age < 20) {
-    console.log(`${firstName} is a teenager`);
-  } else {
-    if (age < 30) {
-      console.log(`${firstName} is a young adult`);
-    } else {
-      if (age >= 30) {
-        console.log(`${firstName} is an adult`);
-      } else {
-        console.log("Oi, put in a valid numeric age!");
-      }
-    }
-  }
+  console.log("Oi, put in a valid numeric age!");
 }
 
 /* Mark and John are trying to compare their BMI (Body Mass Index), which is calculated using the formula: BMI = mass / (height * height). (mass in kg, i.e. 72.5, and height in metres, i.e. 1.65).
