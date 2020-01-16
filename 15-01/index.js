@@ -1,67 +1,98 @@
-/* Make a variable for firstName and age and give each variable values. Create an if/else statement to check whether the person’s age is less than 13. If so, print “firstName is a child”. If the age is equal to or more than 13 and less than 20, print “firstName is a teenager”. If the person’s age is equal to 20 and less than 30, then print “firstName is a young adult”. If none of these conditions apply, print “firstName is a adult”. */
-const firstName = "Ali";
+//Declare two variables "a" with the value of true and "b" with the value of false.
 
-const age = 22;
+const a = true;
+b = false;
 
-if (age < 13) {
-  console.log(`${firstName} is a child`);
-} else {
-  if (age < 20) {
-    console.log(`${firstName} is a teenager`);
-  } else {
-    if (age < 30) {
-      console.log(`${firstName} is a young adult`);
-    } else {
-      if (age >= 30) {
-        console.log(`${firstName} is an adult`);
-      } else {
-        console.log("Oi, put in a valid numeric age!");
-      }
-    }
-  }
-}
+// 1 Check the result of:
 
-/* Mark and John are trying to compare their BMI (Body Mass Index), which is calculated using the formula: BMI = mass / (height * height). (mass in kg, i.e. 72.5, and height in metres, i.e. 1.65).
-Store Mark’s and John’s mass and height in variables.
-Calculate both their BMIs and store their BMIs in variables.
-Create a boolean variable containing information about whether Mark has a higher BMI than John.
-Print a string to the console containing the variable from step 3 using string interpolation. (e.g. “Is Mark’s BMI higher than John’s? Why yes, it’s [boolean], it is”).
-Create an if statement which prints the name and BMI of the person with the highest BMI */
+// 1a
 
-//Q1 Store Mark's and John's mass and height in variables.
+console.log(`Q1a: ${a && b}`);
 
-const markHeight = 1.65;
-const markMass = 85;
+// 1b
 
-const johnHeight = 1.9;
-const johnMass = 120;
+console.log(`Q1b: ${a || b}`);
 
-//Q2 Calculate both their BMIs and store their BMIs in variables.
+// 1c
 
-const markBMI = markMass / (markHeight * markHeight);
+console.log(`Q1c: ${!(a && b)}`);
 
-const JohnBMI = johnMass / (johnHeight * johnHeight);
+// 2 Declare three more variables "x", "y", "z". Give these variables number values.
 
-//Q3 Create a boolean variable containing information about whether Mark has a higher BMI than John.
+const x = 5;
+const y = 10;
+const z = 2;
 
-const markMoreCookies = markBMI > JohnBMI;
+// 3 Check the result of whether:
 
-console.log(markMoreCookies); // to test
+// 3a x is greater than z AND x is greater than y.
 
-//Q4 Print a string to the console containing the variable from step 3 using string interpolation. (e.g. "Is Mark's BMI higher than John's? Why yes, it's [boolean], it is").
+console.log(`Q3a: ${x > z && x > y}`);
 
-if (markMoreCookies) {
-  console.log(`Is Mark's BMI higher than John's`);
-} else {
-  console.log(
-    ` John enjoy GYM time, but Mark? Mark enjoy more having cookies and milk .`
-  );
-}
+// 3b x is NOT equal to y.
 
-//Q5 Create an *if* statement which prints the name and BMI of the person with the highest BMI.
+console.log(`Q3b: ${x !== y}`);
 
-if (markMoreCookies) {
-  console.log(`Mark ${markBMI}`);
-} else {
-  console.log(`John ${JohnBMI}`);
-}
+// 3c z is less than y OR z is greater than x.
+
+console.log(`Q3c: ${z < y || z > x}`);
+
+// 3d x is equal to z OR x is NOT equal to y.
+
+console.log(`Q3d: ${x == z || x !== y}`);
+
+// 3e x is greater than or equal to 10 AND y is less than or equal to 10.
+
+console.log(`Q3e: ${x >= 10 && y <= 10}`);
+
+// 3f x multiplied by z is less than 100 OR whether x multiplied by y is greater than 100.
+
+console.log(`Q3f: ${x * z < 100 || x * y > 100}`);
+
+//1. Calculate the perimeter of a square. Assume each side is 4.75cm.
+const sqSideLength = 4.75;
+const sqPerimeter = sqSideLength + sqSideLength + sqSideLength + sqSideLength;
+console.log(`Perimeter of square = ${sqPerimeter}cm`);
+
+//2. Calculate the perimeter of a triangle. Assume the length of the sides are 5cm, 6cm, 7cm.
+const triPerimeter = 5 + 6 + 7;
+console.log(`Perimeter of triangle = ${triPerimeter}cm`);
+
+//3. Calculate the area of a square. Each side is 5cm.
+const sqArea = 5 * 5;
+console.log(`Area of square = ${sqArea}cm²`);
+
+//4. Calculate the area of a triangle. Assume the length of the sides are 5cm, 6cm, 7cm.
+// Heron's Formula
+const triSideLength1 = 5;
+const triSideLength2 = 6;
+const triSideLength3 = 7;
+const halfPerimeter = (triSideLength1 + triSideLength2 + triSideLength3) / 2;
+const areaTriangle = Math.sqrt(
+  halfPerimeter *
+    (halfPerimeter - triSideLength1) *
+    (halfPerimeter - triSideLength2) *
+    (halfPerimeter - triSideLength3)
+);
+console.log(`Area of triangle = ${areaTriangle}cm²`);
+
+//5. Calculate the volume of a cube. Length of each side is 9cm.
+const cubeSideLength = 9;
+const cubeVol = cubeSideLength * cubeSideLength * cubeSideLength;
+console.log(`Volume of cube = ${cubeVol}cm³`);
+
+//6. Calculate the three bills including tips:
+//€22.35 + 10% tip
+//€26.67 + 15% tip
+//€35.92 + 20% tip
+const billOne = 22.35;
+const billTwo = 26.67;
+const billThree = 35.92 + 35.92 * 0.2;
+const tenPercentTip = 1.1;
+const fifteenPercentTip = 1.15;
+const twentyPercentTip = 1.2;
+console.log(
+  `Bill One: EUR${billOne * tenPercentTip}
+Bill Two: EUR${billTwo * fifteenPercentTip}
+Bill Three: EUR${billThree * twentyPercentTip}`
+);
