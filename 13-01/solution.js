@@ -38,17 +38,17 @@ const JohnBMI = johnMass / (johnHeight * johnHeight);
 
 //Q3 Create a boolean variable containing information about whether Mark has a higher BMI than John.
 
-const markMoreCookies = markBMI > JohnBMI;
+const markMoreCookies = markBMI > JohnBMI; // true or false
 
 console.log(markMoreCookies); // to test
 
 //Q4 Print a string to the console containing the variable from step 3 using string interpolation. (e.g. "Is Mark's BMI higher than John's? Why yes, it's [boolean], it is").
 
-if (markMoreCookies) {
-  console.log(`Is Mark's BMI higher than John's`);
+if (markBMI > JohnBMI) {
+  console.log(`Is Mark's BMI higher than John's ${markMoreCookies}`);
 } else {
   console.log(
-    ` John enjoy GYM time, but Mark? Mark enjoy more having cookies and milk .`
+    ` John enjoy GYM time, but Mark? Mark enjoy more having cookies and milk ${markMoreCookies} .`
   );
 }
 

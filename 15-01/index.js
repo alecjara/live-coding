@@ -7,7 +7,7 @@ b = false;
 
 // 1a
 
-console.log(`Q1a: ${a && b}`);
+console.log(`Q1a: ${a && b}`); // false
 
 // 1b
 
@@ -56,6 +56,7 @@ console.log(`Perimeter of square = ${sqPerimeter}cm`);
 
 //2. Calculate the perimeter of a triangle. Assume the length of the sides are 5cm, 6cm, 7cm.
 const triPerimeter = 5 + 6 + 7;
+//
 console.log(`Perimeter of triangle = ${triPerimeter}cm`);
 
 //3. Calculate the area of a square. Each side is 5cm.
@@ -63,7 +64,7 @@ const sqArea = 5 * 5;
 console.log(`Area of square = ${sqArea}cm²`);
 
 //4. Calculate the area of a triangle. Assume the length of the sides are 5cm, 6cm, 7cm.
-// Heron's Formula
+
 const triSideLength1 = 5;
 const triSideLength2 = 6;
 const triSideLength3 = 7;
@@ -85,6 +86,8 @@ console.log(`Volume of cube = ${cubeVol}cm³`);
 //€22.35 + 10% tip
 //€26.67 + 15% tip
 //€35.92 + 20% tip
+//6. Calculate the three bills including tips: €22.35 + 10% tip €26.67 + 15% tip €35.92 + 20% tip
+
 const billOne = 22.35;
 const billTwo = 26.67;
 const billThree = 35.92 + 35.92 * 0.2;

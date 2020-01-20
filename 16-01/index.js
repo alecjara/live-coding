@@ -126,8 +126,9 @@ for (let i = 0; i <= 4; i++) {
 console.log(box);
 // 1, 2, 4, 8... 128
 for (let i = 1; i <= 128; ) {
+  // i++ or i--
   console.log(i);
-  i += i;
+  i = i * 2; //
 }
 
 // 0, 2, 4... 10
@@ -143,9 +144,9 @@ for (let i = 3; i <= 15; ) {
 }
 
 // 9, 8, 7... 0
-for (let i = 9; i >= 0; ) {
+for (let i = 9; i >= 0; i--) {
   console.log(i);
-  i--;
+  // i = i -1
 }
 
 // 1 1 1 2 2 2 3 3 3 4 4 4
@@ -163,7 +164,7 @@ for (let i = 0; i <= 4; ) {
     i = 0;
     counter++;
   } else {
-    i++;
+    i++; // i = i + 1
   }
 }
 
@@ -195,11 +196,11 @@ for (let i = 0; i <= 3; i++) {
 @
 */
 
-let Tbox2 = "@@@@@@";
+let atbox2 = "@@@@@@";
 for (let i = 0; i <= 5; i++) {
-  console.log(Tbox2.slice(i));
+  console.log(atbox2.slice(i));
 }
-
+// Array
 let firstName = "Hadi";
 let firstName1 = "Ali";
 let firstName2 = "Olga";
