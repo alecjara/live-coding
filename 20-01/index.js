@@ -117,7 +117,7 @@ for (let i = 0; i < names2.length; i++) {
 }
 
 // City Names. Create an array of city names. Loop through the array and add the city names to a string. Example of expected output: Berlin, Paris, Prague, Rome.
-const cityNames = ["Berlin", "Paris", "Mayami", "Dubai"];
+const cityNames = ["Berlin", "Paris", "London", "Dubai"];
 let cityNamesStr = "";
 for (let i = 0; i < cityNames.length; i++) {
   cityNamesStr += cityNames[i];
@@ -150,7 +150,7 @@ console.log(numArr);
 // [“Cynthia”, “Karen”, “Jane”, “Carrie”] ➞ [“Cynthia”, “Karen”, “Jane”, “Carrie”]
 const arrNames = ["sara", "ali", "naNCy"];
 for (let i = 0; i < arrNames.length; i++) {
-  arrNames[i] =
+  arrNames[i] = // sara
     arrNames[i][0].toUpperCase() + arrNames[i].substr(1).toLowerCase();
 }
 console.log(arrNames);
