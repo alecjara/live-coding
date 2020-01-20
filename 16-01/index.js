@@ -1,3 +1,5 @@
+//DRY
+
 // if (x <= 10) {
 //   x += 1;
 // } else {
@@ -9,7 +11,8 @@
 // } else {
 //   x -= 1;
 // }
-// while (...) {
+
+// while (...)
 let x = 1;
 while (x <= 10) {
   console.log("Hadi");
@@ -27,10 +30,12 @@ while (count >= 0) {
   console.log(`this num is ${count} `);
   count--;
 }
+// do {...} while()
+
 let a = 101;
 do {
   console.log(a);
-  a++; // a = a + 1
+  a++; // a = a + 1 // ++ , -- increment , decrement
 } while (a <= 100);
 let zara = 100;
 do {
@@ -39,7 +44,6 @@ do {
 } while (zara >= 0);
 
 for (let i = 0; i <= 10; i++) {
-  //i=3
   console.log(i);
 }
 
@@ -47,13 +51,6 @@ for (let i = 100; i <= 1000; ) {
   console.log(i);
   i += 100;
 }
-//DRY
-
-// ++ , --
-
-// }
-// do {...}
-// while()
 
 //for (..) {}
 for (let i = 0; i <= 100; i++) {
@@ -128,18 +125,81 @@ for (let i = 0; i <= 4; i++) {
 }
 console.log(box);
 // 1, 2, 4, 8... 128
+for (let i = 1; i <= 128; ) {
+  console.log(i);
+  i += i;
+}
 
 // 0, 2, 4... 10
+for (let i = 0; i <= 10; ) {
+  console.log(i);
+  i += 2;
+}
 
 // 3, 6, 9 ... 15
+for (let i = 3; i <= 15; ) {
+  console.log(i);
+  i += 3;
+}
 
 // 9, 8, 7... 0
+for (let i = 9; i >= 0; ) {
+  console.log(i);
+  i--;
+}
 
 // 1 1 1 2 2 2 3 3 3 4 4 4
+for (let i = 1; i <= 4; i++) {
+  for (let j = 0; j <= 2; j++) {
+    console.log(i);
+  }
+}
 
 // 0 1 2 3 4 0 1 2 3 4 0 1 2 3 4
+let counter = 0;
+for (let i = 0; i <= 4; ) {
+  console.log(i);
+  if (i == 4 && counter < 2) {
+    i = 0;
+    counter++;
+  } else {
+    i++;
+  }
+}
 
-// var, let, const
+/* 
+T
+TT
+TTT
+TTTT
+TTTTT
+TTTTTT
+*/
+
+let Tbox = "";
+for (let i = 0; i <= 3; i++) {
+  for (let j = 0; j <= 3; j++) {
+    if (i == j) {
+      break;
+    } else {
+      Tbox += "T";
+      console.log(Tbox);
+    }
+  }
+}
+/* 
+@@@@@@
+@@@@
+@@@
+@@
+@
+*/
+
+let Tbox2 = "@@@@@@";
+for (let i = 0; i <= 5; i++) {
+  console.log(Tbox2.slice(i));
+}
+
 let firstName = "Hadi";
 let firstName1 = "Ali";
 let firstName2 = "Olga";
