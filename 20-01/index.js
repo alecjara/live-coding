@@ -150,7 +150,7 @@ console.log(numArr);
 // [“Cynthia”, “Karen”, “Jane”, “Carrie”] ➞ [“Cynthia”, “Karen”, “Jane”, “Carrie”]
 const arrNames = ["sara", "ali", "naNCy"];
 for (let i = 0; i < arrNames.length; i++) {
-  arrNames[i] = // sara
+  arrNames[i] = // i= 0 => sara
     arrNames[i][0].toUpperCase() + arrNames[i].substr(1).toLowerCase();
-}
+} // s     =>       S                        ara    =>    ara
 console.log(arrNames);
