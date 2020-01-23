@@ -104,7 +104,7 @@ Examples:
 amplify(4) ➞ [1, 2, 3, 40]
 amplify(3) ➞ [1, 2, 3]
 amplify(25) ➞ [1, 2, 3, 40, 5, 6, 7, 80, 9, 10, 11, 120, 13, 14, 15, 160, 17, 18, 19, 200, 21, 22, 23, 240, 25] */
-const amp = num => {
+const amplify = num => {
   let result = [];
   let ampByTen = 0;
   for (let i = 1; i <= num; i++) {
@@ -117,7 +117,7 @@ const amp = num => {
   }
   return result;
 };
-console.log(amp(24));
+console.log(amplify(24));
 /* One is not like the others... Create a function that takes an array of numbers and return the number that’s unique.
 Examples:
 
@@ -143,10 +143,5 @@ function unique(arr) {
     return remainder[0];
   }
 }
-
 let numArray = [1, 1, 2, 3, 3, 1];
 console.log(unique(numArray));
-
-// variables in function
-
-// local vs global
