@@ -237,7 +237,6 @@ function pigLatin(str) {
     let firstChr = splitStr[i][0]; // t
     let remainder = splitStr[i].slice(1, splitStr[i].length); //hat
     const newString = remainder + firstChr + "ay";
-    // hat + z + ay
     translation.push(newString);
   }
   let result = translation.join(" ");
