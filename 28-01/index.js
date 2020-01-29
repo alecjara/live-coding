@@ -1,7 +1,7 @@
 // Create a function that looks inside a givin string if it has the word (JavaScript) if so print "I know it's crazy 😉".
 function checkStr(string) {
-  let strToArray = string.split(" ");
-  if (strToArray.includes("JavaScript")) {
+  //let strToArray = string.split(" ");
+  if (string.includes("JavaScript")) {
     console.log("I know it's crazy 😉");
   }
 }
@@ -12,7 +12,7 @@ checkStr("I like JavaScript");
 function age(num) {
   let year = new Date().getFullYear();
   let userAge = year - num;
-  return num < 2020 && num > 1900
+  return num < year && num > 1900
     ? `${userAge} years old`
     : `Please enter a valid year`;
 }
@@ -39,7 +39,7 @@ function monthCheck(string) {
   let strToArray = string.toLowerCase().split(" ");
   let result = "";
   let counter = 0;
-  let currentSeason = monthToLook => {
+  const currentSeason = monthToLook => {
     let seasonName = "";
     if (
       monthToLook == months[0] ||
@@ -86,7 +86,7 @@ function monthCheck(string) {
 }
 console.log("monthCheck");
 
-console.log(monthCheck("hi is jun july"));
+console.log(monthCheck("hi is jun hhhh"));
 console.log(monthCheck("Hi hi is"));
 // Create a function that takes a string and a word, and then returns true or false depending on whether the word starts with the initial string.
 // dictionary("bu", "button") ➞ true
@@ -274,6 +274,7 @@ console.log(isEqualPieSlices(4, 3, 1));
 // e.g. “john@example.com” is valid while “@example.com” is invalid.
 // The “.” and the “@” must be in the appropriate places.
 // e.g. “john.smith@com” is invalid while “john.smith@email.com” is valid.
+
 function validate(email) {
   let atSymbolPos;
   let dotPos;
