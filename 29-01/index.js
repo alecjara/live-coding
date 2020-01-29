@@ -97,35 +97,3 @@ const bankChecker = str => {
 console.log("Bank");
 console.log(bankChecker("Hi my bank account is DE12222222232222222222"));
 console.log(bankChecker("I have bank DE221"));
-
-// function userSalNet(name, salary, ...kids) {
-//   let x = 0;
-//   for (let i = 0; i < kids.length; i++) {
-//     if (kids[i] == 1) {
-//       x = 30;
-//     } else if (kids[i] == 2) {
-//       x = 25;
-//     } else if (kids[i] > 2) {
-//       x = 20;
-//     } else {
-//       x = 55;
-//     }
-//   }
-//   let totalSal = (salary / 100) * x;
-//   return totalSal;
-// }
-
-// console.log(userSalNet("Ali", 4000, "Ahi"));
-var global = 4;
-//
-function display(kids) {
-  //console.log(kids);
-  //let newArr = kids.toLowerCase().split(" ");
-  //return newArr;
-
-  console.log();
-}
-let newArr = 5;
-display(); // this is my return
-
-console.log(newArr); //this was local var for display function
