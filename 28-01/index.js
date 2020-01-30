@@ -12,13 +12,13 @@ checkStr("I like JavaScript");
 function age(num) {
   let year = new Date().getFullYear();
   let userAge = year - num;
-  return num < year && num > 1900
+  return num < year + 1 && num > 1900
     ? `${userAge} years old`
     : `Please enter a valid year`;
 }
 console.log("age");
 console.log(age(1940));
-console.log(age(2200));
+console.log(age(2021));
 // Create a function that accepts a text from user and check if the user has entered a month name, if so print out that month and in which season it is.
 function monthCheck(string) {
   let months = [
@@ -39,37 +39,26 @@ function monthCheck(string) {
   let strToArray = string.toLowerCase().split(" ");
   let result = "";
   let counter = 0;
+  let winter = ["december", "january", "february"];
+  let spring = ["march", "april", "may"];
+  let summer = ["jun", "july", "august"];
+  let autumn = ["september", "october", "november"];
   const currentSeason = monthToLook => {
     let seasonName = "";
-    if (
-      monthToLook == months[0] ||
-      monthToLook == months[1] ||
-      monthToLook == months[2]
-    ) {
+    if (winter.includes(monthToLook)) {
       seasonName = seasons[0];
-    } else if (
-      monthToLook == months[3] ||
-      monthToLook == months[4] ||
-      monthToLook == months[5]
-    ) {
+    } else if (spring.includes(monthToLook)) {
       seasonName = seasons[1];
-    } else if (
-      monthToLook == months[6] ||
-      monthToLook == months[7] ||
-      monthToLook == months[8]
-    ) {
+    } else if (summer.includes(monthToLook)) {
       seasonName = seasons[2];
-    } else if (
-      monthToLook == months[9] ||
-      monthToLook == months[10] ||
-      monthToLook == months[11]
-    ) {
+    } else if (autumn.includes(monthToLook)) {
       seasonName = seasons[3];
     } else {
       seasonName = "Sorry something went wong";
     }
     return seasonName;
   };
+  //console.log(months);
   for (let i = 0; i < strToArray.length; i++) {
     if (months.includes(strToArray[i])) {
       let currentWord = strToArray[i];
@@ -86,7 +75,7 @@ function monthCheck(string) {
 }
 console.log("monthCheck");
 
-console.log(monthCheck("hi is jun hhhh"));
+console.log(monthCheck("hi is jun"));
 console.log(monthCheck("Hi hi is"));
 // Create a function that takes a string and a word, and then returns true or false depending on whether the word starts with the initial string.
 // dictionary("bu", "button") ➞ true
@@ -295,3 +284,9 @@ function validate(email) {
 
 console.log(validate("contact@hadi-nsreeny.com"));
 console.log(validate("@hadi-nsreeny.com"));
+
+const countOccurrences1 = (string, letter) => {
+  let letterOccurrences = string.split(letter).length - 1;
+  return letterOccurrences;
+};
+console.log(countOccurrences1("this is a string", "i"));
