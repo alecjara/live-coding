@@ -95,5 +95,5 @@ const bankChecker = str => {
   return result;
 };
 console.log("Bank");
-console.log(bankChecker("Hi my bank account is DE12222222232222222222"));
-console.log(bankChecker("I have bank DE221"));
+console.log(bankChecker("Hi my bank account is "));
+console.log(bankChecker("I delete  have bank DE"));
