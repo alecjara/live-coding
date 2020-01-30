@@ -284,9 +284,3 @@ function validate(email) {
 
 console.log(validate("contact@hadi-nsreeny.com"));
 console.log(validate("@hadi-nsreeny.com"));
-
-const countOccurrences1 = (string, letter) => {
-  let letterOccurrences = string.split(letter).length - 1;
-  return letterOccurrences;
-};
-console.log(countOccurrences1("this is a string", "i"));
