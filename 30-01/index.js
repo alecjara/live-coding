@@ -53,13 +53,13 @@ const bankChecker = str => {
   let result = "";
   let counter = 0;
   let strToArr = str.toLowerCase().split(" ");
-  console.log(strToArr);
+  //console.log(strToArr);
   for (let i = 0; i < strToArr.length; i++) {
     let firstTwoChr = strToArr[i].slice(0, 2);
-    console.log(firstTwoChr);
+    // console.log(firstTwoChr);
     let remainderStr = strToArr[i].slice(2, strToArr[i].length);
-    console.log(remainderStr);
-    if (firstTwoChr == "de") {
+    // console.log(remainderStr);
+    if (firstTwoChr == "de" && strToArr[i][2] >= 0 && strToArr[i][2] <= 9) {
       if (remainderStr.length != 20 || isNaN(remainderStr)) {
         result = `This is not a valid bank account ${strToArr[i]}`;
         counter++;
@@ -75,12 +75,12 @@ const bankChecker = str => {
   return result;
 };
 console.log("Bank");
-console.log(bankChecker("DElete"));
+console.log(bankChecker("DElete in "));
 //console.log(bankChecker("I delete  have bank DE"));
 // Count Occurrences. Create a function that accepts two arguments: a string and a letter. The function should count the number of occurrences of that letter in the string.
 // i.e. countOccurrences(“this is a string”, “i”) ➞ 3
-const countOccurrences = (string, letter) => {
-  let letterOccurrences = string.split(letter).length - 1;
-  return letterOccurrences;
-};
-console.log(countOccurrences("this is a string", "i"));
+// const countOccurrences = (string, letter) => {
+//   let letterOccurrences = string.split(letter).length - 1;
+//   return letterOccurrences;
+// };
+// console.log(countOccurrences("this is a string", "i"));

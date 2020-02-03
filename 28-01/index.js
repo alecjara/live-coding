@@ -62,9 +62,8 @@ function monthCheck(string) {
   for (let i = 0; i < strToArray.length; i++) {
     if (months.includes(strToArray[i])) {
       let currentWord = strToArray[i];
-      result += `You have entered ${currentWord}, which is in ${currentSeason(
-        currentWord
-      )}. `;
+      result += `You have entered ${currentWord}, which is in
+       ${currentSeason(currentWord)}. `;
       counter++;
     }
   }
