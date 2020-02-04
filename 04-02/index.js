@@ -2,6 +2,7 @@ let arr = [];
 
 // Objects
 // keys, properties : value
+//Object Literal
 const o = {
   1: "Hadi",
   2: "Ali",
@@ -25,7 +26,7 @@ const object = {
   year: 1990,
   arr: [1, 3, 4, 5, 67]
 };
-// Accessing properties with bracket notation
+// Accessing properties with (bracket notation)
 const car = {};
 console.log(car);
 car["name"] = "Ford";
@@ -33,7 +34,7 @@ console.log(car);
 car["year"] = 2020;
 console.log(car);
 
-// Accessing properties with dot notation
+// Accessing properties with (dot notation)
 car.age = 22;
 console.log(car);
 car.age = 44;
@@ -121,3 +122,44 @@ Object.defineProperties(person, {
 });
 console.log(person.p3);
 console.log(Object.keys(person));
+// Create a function that returns an array of properties of a javascript object.
+function arrSpliting(str) {
+  let arr = str.split("");
+  let countObject = {};
+  function characterCount(word, character) {
+    let count = 0;
+    for (let i = 0; i < word.length; i++) {
+      if (word[i] === character) {
+        count++;
+      }
+    }
+    return count;
+  }
+  for (let i = 0; i < arr.length; i++) {
+    let currentChar = arr[i];
+    countObject[currentChar] = characterCount(str, currentChar);
+  }
+  return countObject;
+}
+//console.log(arrSpliting("هادي"));
+
+function countLetters(str) {
+  let arr = str.split("");
+  console.log(arr);
+  let result = {};
+  function countOccurrences(string, letter) {
+    let counter = 0;
+    for (let i = 0; i < string.length; i++) {
+      if (string[i] === letter) {
+        counter++;
+      }
+    }
+    return counter;
+  }
+  for (let i = 0; i < arr.length; i++) {
+    let currentChar = arr[i];
+    result[currentChar] = countOccurrences(str, currentChar); // this is an inner function
+  }
+  return result;
+}
+console.log(countLetters("ABC"));
