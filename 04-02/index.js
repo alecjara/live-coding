@@ -145,12 +145,13 @@ function arrSpliting(str) {
 
 function countLetters(str) {
   let arr = str.split("");
-  console.log(arr +'Chr Array ');
+  console.log(arr + "Chr Array ");
   let result = {};
   function countOccurrences(string, letter) {
     let counter = 0;
     for (let i = 0; i < string.length; i++) {
-      if (string[i] === letter) { // ABC == B
+      if (string[i] === letter) {
+        // ABC == B
         counter++;
       }
     }
@@ -160,12 +161,12 @@ function countLetters(str) {
     let currentChar = arr[i]; // B
     // the magic line 💪🏻
     result[currentChar] = countOccurrences(str, currentChar); // this is an inner function
-  }                             // ABC , B 
-    // {
-    //  A: 1
-    //  B:
-    // }
-  }
+  } // ABC , B
+  // {
+  //  A: 1
+  //  B:
+  // }
+
   return result;
 }
 console.log(countLetters("ABC"));
