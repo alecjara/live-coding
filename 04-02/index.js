@@ -158,6 +158,7 @@ function countLetters(str) {
   }
   for (let i = 0; i < arr.length; i++) {
     let currentChar = arr[i]; // B
+    // the magic line 💪🏻
     result[currentChar] = countOccurrences(str, currentChar); // this is an inner function
   }                             // ABC , B 
     // {
