@@ -145,20 +145,25 @@ function arrSpliting(str) {
 
 function countLetters(str) {
   let arr = str.split("");
-  console.log(arr);
+  console.log(arr +'Chr Array ');
   let result = {};
   function countOccurrences(string, letter) {
     let counter = 0;
     for (let i = 0; i < string.length; i++) {
-      if (string[i] === letter) {
+      if (string[i] === letter) { // ABC == B
         counter++;
       }
     }
     return counter;
   }
   for (let i = 0; i < arr.length; i++) {
-    let currentChar = arr[i];
+    let currentChar = arr[i]; // B
     result[currentChar] = countOccurrences(str, currentChar); // this is an inner function
+  }                             // ABC , B 
+    // {
+    //  A: 1
+    //  B:
+    // }
   }
   return result;
 }
