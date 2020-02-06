@@ -94,8 +94,8 @@ function zodiac(name, day, month, year) {
       while (monthDay >= data[i].from && i < data.length - 1) {
         i++;
       }
-      let yourZodiac = data[i - 1].signName;
-      return `Hey ${this.userName} your zodiac sign is ${yourZodiac}`;
+      let yourZodiacName = data[i - 1].signName;
+      return `Hey ${this.userName} your zodiac sign is ${yourZodiacName}`;
     }
   };
   return result.yourZodiac();

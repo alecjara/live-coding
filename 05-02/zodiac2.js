@@ -24,9 +24,9 @@ function zodiac1(name, day, month, year) {
       let userBDay = parseInt(this.birthDay);
       let month = parseInt(this.birthMonth);
       let endsAt = [19, 18, 20, 20, 21, 21, 22, 22, 21, 22, 21, 20, 19];
-      let yourZodiac =
+      let yourZodiacName =
         userBDay > endsAt[month] ? singNames[month] : singNames[month - 1];
-      return `Hey ${this.userName}, your zodiac sing is ${yourZodiac}`;
+      return `Hey ${this.userName}, your zodiac sing is ${yourZodiacName}`;
     }
   };
   return result.yourZodiac();
