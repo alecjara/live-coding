@@ -76,16 +76,20 @@ const factorial = function(num) {
 };
 console.log(factorial(5));
 
-// function countdown(n) {
-//   if (n <= ) {
-//     console.log(0);
-//   }
-//   console.log(n);
-//   countdown(n - 1);
-// }
-// countdown(5);
 // Deep copy using recursion 🤨
-
+function deepCopy(obj) {
+  if (typeof obj == "object") {
+    return Object.keys(obj)
+      .map(key => ({ [key]: deepCopy(obj[key]) }))
+      .reduce((acc, cur) => Object.assign(acc, cur), {});
+  } else if (typeof obj == "array") {
+    return; // something
+  }
+  return obj;
+}
+const newObj = { 1: "hi", 2: "how are you", fun: () => console.log("Hi") };
+const superNewObj = deepCopy(newObj);
+console.log(superNewObj);
 // console.table()
 
 // Object.getOwnPropertyNames
