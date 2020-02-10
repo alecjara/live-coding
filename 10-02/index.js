@@ -61,9 +61,11 @@ console.log(namesArr);
 let newNames2 = [].concat(namesArr);
 
 // Shallow copy using .slice()
-
+let newNames3 = namesArr.slice(0);
+console.log(newNames3);
 // Shallow copy using .assign()
-
+const newObject2 = Object.assign(car);
+const mewObject3 = { ...car };
 //  Recursion
 
 // console.table()
