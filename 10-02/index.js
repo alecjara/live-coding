@@ -67,6 +67,24 @@ console.log(newNames3);
 const newObject2 = Object.assign(car);
 const mewObject3 = { ...car };
 //  Recursion
+const factorial = function(num) {
+  // console.log(num);
+  if (num == 1) {
+    return 1;
+  }
+  return num * factorial(num - 1);
+};
+console.log(factorial(5));
+
+// function countdown(n) {
+//   if (n <= ) {
+//     console.log(0);
+//   }
+//   console.log(n);
+//   countdown(n - 1);
+// }
+// countdown(5);
+// Deep copy using recursion 🤨
 
 // console.table()
 
