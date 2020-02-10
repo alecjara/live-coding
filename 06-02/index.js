@@ -72,19 +72,3 @@ function keysToValue(obj) {
   return Object.fromEntries(reversArr);
 }
 console.log(keysToValue(person));
-
-// Object.getOwnPropertyNames
-
-// Clones vs. References
-// Simple values are always clones
-// Primitive
-// String, Number, Boolean
-// Compound
-// Object, Array, Function
-// Objects are references by default: Array and object literals
-
-// Shallow copy using ... (spread operator)
-
-// Shallow copy using .slice()
-
-// Shallow copy using .assign()
