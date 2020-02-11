@@ -28,15 +28,50 @@ let family = [
   ["Ali", 22, "teacher"],
   ["Olga", 40, "chef"]
 ];
+// our beloved for
 for (let i = 0; i < family.length; i++) {
   for (let j = 0; j < family[i].length; j++) {
     console.log(family[i][j]);
   }
 }
-family.forEach;
-// console.log(arrayNew);
+// forEach
+family.forEach(arr => arr.forEach(element => console.log(element)));
+// fon in
+console.log("array new");
+for (let innerArray of family) {
+  for (let element of innerArray) {
+    console.log(element);
+  }
+}
+// reading why not for in is working
 // Nesting objects
 // Nesting and accessing objects in objects
+const tShirt = {
+  color: "red",
+  size: ["XS", "S", "M", "l", "XL"],
+  countries: {
+    name: ["China", "Germany"],
+    capital: ["Beijing", "Berlin"],
+    obj: {
+      one: 3344,
+      two: 5654,
+      printOut: function() {
+        console.log(this.one);
+      }
+    },
+    display: function() {
+      console.log(this.name);
+    }
+  },
+  fabric: "cotton",
+  method: function() {
+    console.log(this.color);
+  }
+};
+console.log(tShirt.size[2]);
+console.log(tShirt.countries.capital[1]);
+console.log(tShirt.countries.name[0]);
+console.log(tShirt.countries.obj.two);
 
 // Nesting and accessing arrays in objects
 
