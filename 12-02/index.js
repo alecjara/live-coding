@@ -47,13 +47,17 @@ ali.printOut();
 const ojb = new Date();
 console.log(ojb);
 // class
+// we use class to create one or more objects, you can't use it instance in you application but it will be like a  for a newer objects if you will.
+// the class will have instances properly and can have instances method, ideally we use the properties in the method to achieve a task.
+// the class will have also a constructor, this bad boy will run only ones when the object being created, we use constructor function to setup the object
+//  class declaration creates a new class with a name that you give, you would  use prototype-based inheritance.
 class Animals {
   // setup
   constructor(_kind, _hometown) {
     this.kind = _kind;
     this.hometown = _hometown;
   }
-  // method
+  // instances probably declare under the constuctor
   display() {
     console.log(
       `It is a very cute ${this.kind}, and lives in ${this.hometown} `
