@@ -47,17 +47,14 @@ ali.printOut();
 const ojb = new Date();
 console.log(ojb);
 // class
-// we use class to create one or more objects, you can't use it instance in you application but it will be like a  for a newer objects if you will.
-// the class will have instances properly and can have instances method, ideally we use the properties in the method to achieve a task.
-// the class will have also a constructor, this bad boy will run only ones when the object being created, we use constructor function to setup the object
-//  class declaration creates a new class with a name that you give, you would  use prototype-based inheritance.
+
 class Animals {
   // setup
   constructor(_kind, _hometown) {
     this.kind = _kind;
     this.hometown = _hometown;
   }
-  // instances probably declare under the constuctor
+  // instances probably declare under the constructor
   display() {
     console.log(
       `It is a very cute ${this.kind}, and lives in ${this.hometown} `
@@ -67,16 +64,115 @@ class Animals {
 let casper = new Animals("Dog", "LA");
 casper.display();
 let sofi = new Animals("Fish", "Berlin");
+sofi.kind = "Cat";
 const dyson = new Animals("Fish", "Berlin");
 console.log(dyson);
-// extends  and super()
+class Color {
+  constructor() {
+    this.name = "";
+    this.age = 0;
+    this.birthDay = 0;
+  }
+}
+const red = new Color();
+red.name = "Red";
+red.age = 122334;
+
+console.log(red);
+const da = new Date();
+
+class TV {
+  constructor(_brand, _chanel = 1, _volume = 50) {
+    this.brand = _brand;
+    this.chanel = _chanel;
+    this.volume = _volume;
+  }
+  incVolume() {
+    if (this.volume < 100) {
+      this.volume++;
+      console.log(`Volume is ${this.volume}`);
+    } else {
+      console.log("this is too much");
+    }
+  }
+  decVolume() {
+    if (this.volume > 0) {
+      this.volume--;
+      console.log(`Volume is ${this.volume}`);
+    } else {
+      console.log("this is not too much");
+    }
+  }
+  reset() {
+    this.chanel = 1;
+    this.volume = 50;
+  }
+  ranChanel() {
+    this.chanel = Math.floor(Math.random() * 51);
+    console.log(`Chanel ${this.chanel}`);
+  }
+  display() {
+    return `this Tv is ${this.brand}, has ${this.chanel} and ${this.volume}`;
+  }
+}
+let samsung = new TV("SAmsung", 20, 500);
+samsung.incVolume();
+samsung.ranChanel();
+let apple = new TV("Apple", 100, 30);
+console.log(apple.display());
+// new class
+class Person1 {
+  constructor(_name, _age) {
+    this.name = _name;
+    this.age = _age;
+  }
+  display() {
+    console.log(`Hey ${this.name} i am parent class`);
+  }
+}
+// extends and super()
+// extends --> inheriting the methods from the Original class which being called
+// super --> gets access to the parent's properties and methods
+
+class Kid extends Person1 {
+  constructor(_name, _age, _height) {
+    super(_name, _age);
+    this.height = _height;
+  }
+  show() {
+    return `${this.name} is a ${this.age} years old, i am child class`;
+  }
+}
+let zain = new Kid("Zain", 10);
+console.log(typeof zain);
+zain.display();
+console.log(zain.show());
+const nancy = new Kid("Nancy", 40);
+console.log(typeof nancy);
+zain.increment = function() {
+  console.log("Cool");
+};
+let names = ["Ali", "Nancy", "Olga", "Hadi", "Aai"];
+let result;
+// Array.find()
+result = names.find(name => name.length == 4);
+console.log(result);
 // Array.filter()
-
+result = names.filter(name => name.length == 4);
+console.log(result);
 // Array.map()
-
+names.map(x => console.log(x));
+let letters = ["a", "c", "b", "e", "d"];
+let numbers = [2, 4, 6, 7, 8, 9, 10, 1, 10000];
 // Array.reduce()
-
+result = numbers.reduce((acc, cur) => acc + cur) / numbers.length;
+console.log(result);
 // Array.sort()
-
+letters.sort();
+console.log(letters);
+names.sort();
+console.log(names);
+numbers.sort();
+console.log(numbers);
 // new Date()
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/now
