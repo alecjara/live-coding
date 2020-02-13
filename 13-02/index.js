@@ -32,11 +32,11 @@ let userName = "";
 function display() {
   console.log("Hi this is a cool function");
 }
-
+// to call function many time
 for (let i = 0; i < 8; i++) {
   display();
 }
-
+// to call function many time other way to do that 😎
 (function manyTimeCalledFunction(num) {
   display();
   if (num > 1) manyTimeCalledFunction(num - 1);
@@ -51,6 +51,7 @@ const timerDisplay = setTimeout(
   1000
 );
 const timerPrint = setTimeout(print, 5000);
+// If the function has not already been executed, you can stop the execution by calling the clearTimeout() method:
 clearTimeout(timerDisplay);
 
 // We will learn after HTML
