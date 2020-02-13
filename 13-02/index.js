@@ -1,5 +1,7 @@
 // 3 types of errors (compilation aka compiler fails to compile, runtime, logic)
+// try catch will find the runtime errors but not the parse errors like typo or syntax problems
 
+// most of the error are coming from other places like working with data
 // `try { ... } catch (e) { ... }`
 let userAge = 25;
 if (userAge == 25) {
@@ -9,6 +11,7 @@ if (userAge == 25) {
 console.log("Hi");
 let userName = "";
 // cool(); this is a fake function will make an error
+
 // try --> to test a block of code
 // catch --> to handel the error
 // throw --> to create a custom errors
@@ -49,3 +52,10 @@ const timerDisplay = setTimeout(
 );
 const timerPrint = setTimeout(print, 5000);
 clearTimeout(timerDisplay);
+
+// We will learn after HTML
+//
+// callbacks
+// Promise
+// async/await
+// RxJs
