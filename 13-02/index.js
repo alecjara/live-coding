@@ -3,23 +3,49 @@
 // `try { ... } catch (e) { ... }`
 let userAge = 25;
 if (userAge == 25) {
+  // if the user age is 25 print 'Happy days' and as you see its not printing that.
   console.log("something else");
 }
 console.log("Hi");
 let userName = "";
-cool();
+// cool(); this is a fake function will make an error
 // try --> to test a block of code
 // catch --> to handel the error
 // throw --> to create a custom errors
-try {
-  console.log("Hi his is trying phase");
-  // cool();
-  if (userName == "") throw " Sorry something went wrong ";
-  // if there was an error this part will never run
-  console.log("2nd phase");
-} catch (err) {
-  console.log("this error is" + err);
-} finally {
-  userName = "xxx";
-  console.log("this will always run 😂");
+// finally --> to execute a code after try regardless of the result
+
+// try {
+//   console.log("Hi his is trying phase");
+//   // cool();
+//   //   if (userName == "") throw " Sorry something went wrong ";
+//   // if there was an error this part will never run
+//   console.log("2nd phase");
+// } catch (err) {
+//   console.log("this error is" + err);
+// } finally {
+//   userName = "xxx";
+//   console.log("this will always run 😂");
+// }
+function display() {
+  console.log("Hi this is a cool function");
 }
+
+for (let i = 0; i < 8; i++) {
+  display();
+}
+
+(function manyTimeCalledFunction(num) {
+  display();
+  if (num > 1) manyTimeCalledFunction(num - 1);
+})(8);
+
+function print() {
+  console.log("Hi i am Js");
+}
+
+const timerDisplay = setTimeout(
+  () => console.log("Cool thats you have waited me"),
+  1000
+);
+const timerPrint = setTimeout(print, 5000);
+clearTimeout(timerDisplay);
