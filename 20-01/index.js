@@ -143,7 +143,7 @@ for (let i = 0; i < numArr.length; i++) {
     newNumArr.push(int);
   }
 }
-console.log(numArr);
+console.log(newNumArr);
 // Capitalize. Create a program that capitalises the first letter of each element in an array of names. Examples:
 // [“matt”, “sArA”, “lara”] ➞ [“Matt”, “Sara”, “Lara”]
 // [“samuel”, “MARIA”, “luke”, “mary”] ➞ [“Samuel”, “Maria”, “Luke”, “Mary”]
