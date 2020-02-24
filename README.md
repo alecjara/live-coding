@@ -1,5 +1,5 @@
 # live-coding
-(06/01/2020	)[live-coding/blob/master/03-02/index.js]
+[06/01/2020](live-coding/blob/master/03-02/index.js)
 Introduction Javascript :
 Expressions:
 - String expressions
