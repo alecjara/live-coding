@@ -27,7 +27,7 @@ Basic String Methods:
 String:
 - Getting the length of a string: length”
 
-[07/01/2020](07-01/index.js)
+[08/01/2020](08-01/index.js)
 	- Review: from 06/01/2020
 
 Data types :
