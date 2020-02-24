@@ -1,7 +1,6 @@
 # live-coding
-(06/01/2020	“Introduction:)[06-01/index.js]
-
-- Javascript 
+(06/01/2020	)[live-coding/blob/master/03-02/index.js]
+Introduction Javascript :
 Expressions:
 - String expressions
 - Mathematical expressions
