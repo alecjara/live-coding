@@ -1,6 +1,6 @@
 # live-coding
+(06/01/2020	“Introduction:)[/06-01/index.js]
 
-06/01/2020	“Introduction:
 - Javascript 
 Expressions:
 - String expressions
