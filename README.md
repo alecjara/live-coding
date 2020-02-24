@@ -92,7 +92,7 @@ Decisions:
 - When to use: `switch` vs. `else if`
 - Construction work at DCI shorter day at class
 
-15/01/2020	- Construction work at DCI - no class
+[15/01/2020](15-01/index.js)- Construction work at DCI - no class
 
 - exercises reviewing the previous topics”
 
