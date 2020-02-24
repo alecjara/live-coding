@@ -48,6 +48,8 @@ Math:
 - Maximum and minimum with `Math.max()`, `Math.min()`
 Number Pitfalls:
 - Dealing with NaN: `isNaN(<expression>)`, `typeof NaN`
+
+
 [09/01/2020](09-01/index.js)
 	- Review: from 08/01/2020
 
