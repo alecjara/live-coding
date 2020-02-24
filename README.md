@@ -1,5 +1,5 @@
 # live-coding
-[06/01/2020](03-02/index.js)
+[06/01/2020](06-01/index.js)
 Introduction Javascript :
 Expressions:
 - String expressions
@@ -27,7 +27,8 @@ Basic String Methods:
 String:
 - Getting the length of a string: length”
 
-08/01/2020	- Review: from 06/01/2020
+[07/01/2020](07-01/index.js)
+	- Review: from 06/01/2020
 
 Data types :
 String:
@@ -47,8 +48,8 @@ Math:
 - Maximum and minimum with `Math.max()`, `Math.min()`
 Number Pitfalls:
 - Dealing with NaN: `isNaN(<expression>)`, `typeof NaN`
-
-09/01/2020	- Review: from 08/01/2020
+[09/01/2020](09-01/index.js)
+	- Review: from 08/01/2020
 
 Expressions:
 - Data type: the unary operator `typeof`
@@ -68,7 +69,7 @@ Boolean:
 - Syntax debugging VII
 - Short circuit assignment: Assigning variable fallback with `||`
 
-13/01/2020	- Review from previous week
+[13/01/2020](13-01/index.js)	- Review from previous week
 
 Boolean:
 - Boolean inversion with `!`
@@ -82,18 +83,18 @@ Decisions:
 - Syntax debugging VIII: Unclosed curly braces
 - The default case: `else { ... }`”
 
-14/01/2020	“Multiple choice:
+[14/01/2020](14-01/index.js)	Multiple choice:
 
 - Testing multiple conditions: `else if (<boolean>){ ... }`
 - Executing code based on a value: `switch(<expression>){ ... }`
 - When to use: `switch` vs. `else if`
 - Construction work at DCI shorter day at class
 
-15/01/2020	“- Construction work at DCI - no class
+15/01/2020	- Construction work at DCI - no class
 
 - exercises reviewing the previous topics”
 
-16/01/2020	“- Review from previous topics
+[16/01/2020](16-01/index.js)	- Review from previous topics
 
 Conditional Repetition:
 - Repeating code blocks on a condition:
@@ -111,7 +112,7 @@ Array: Saving multiple values in one name
   `const <array name> = [<value 1>, <value 2>, ...]`
 - Accessing array items with square brackets”
 
-20/01/2020	- Array: Saving multiple values in one name
+[20/01/2020](20-01/index.js)	- Array: Saving multiple values in one name
 
 - Assigning array literals:
   `const <array name> = [<value 1>, <value 2>, ...]`
@@ -124,7 +125,7 @@ Basic Array methods:
 - Removing items: `Array.prototype.pop()`, `Array.prototype.shift()`
 - Manipulating arrays: `Array.prototype.reverse()`
 
-21/01/2020	- Review from previous topics
+[21/01/2020](21-01/index.js)	- Review from previous topics
 Objects
 - The type of an array: arrays are specific objects, `Array.isArray()`
 Advanced Array methods:
@@ -134,7 +135,7 @@ Declaring:
 - Declaring a function: `function <name>(<parameters>){ ... }`
 - Function parameters: Naming and order
 
-22/01/2020	“Review from previous topics
+[22/01/2020](22-01/index.js)	“Review from previous topics
 
 Declaring:
 - Functions declarations as values:
@@ -146,7 +147,7 @@ Advanced Array methods:
    Functions that accept function values (callbacks)
 - Converting an array to a single value: `Array.prototype.reduce(<function>)`
 
-23/01/2020	“Review from previous topics
+[23/01/2020](23-01/index.js)	Review from previous topics
 
 Declaring:
 - Declaring a function: `function <name>(<parameters>){ ... }`
@@ -158,28 +159,28 @@ Function Scope:
 - Global vs. Local scope: Variable reassignment in functions
 - Reading a program IV (reading functions only when they are called)
 
-27/01/2020	“Review from previous topics
+[27/01/2020](27-01/index.js) Review from previous topics
 
 Clones vs. References:
 - Shallow cloning objects and arrays: the spread operator `...`
 
-28/01/2020	“Review from previous topics (Functions, for loops, if else, methods, comparison...)
+[28/01/2020](28-01/index.js)	“Review from previous topics (Functions, for loops, if else, methods, comparison...)
 
-29/01/2020	“Review from previous topics (functions, methods)
-
-Advanced Parameters:
-- Default parameter values:
-  `function(<parameter> = <default value>) { ... }`
-- Variable number of arguments: Rest params - `...args`
-
-30/01/2020	- Review from previous topics (functions, methods)
+[29/01/2020](29-01/index.js)	“Review from previous topics (functions, methods)
 
 Advanced Parameters:
 - Default parameter values:
   `function(<parameter> = <default value>) { ... }`
 - Variable number of arguments: Rest params - `...args`
 
-03/02/2020	- Review from previous topics (functions, methods, arrays, loops)
+[30/01/2020](30-01/index.js)	- Review from previous topics (functions, methods)
+
+Advanced Parameters:
+- Default parameter values:
+  `function(<parameter> = <default value>) { ... }`
+- Variable number of arguments: Rest params - `...args`
+
+[03/02/2020](03-02/index.js)	- Review from previous topics (functions, methods, arrays, loops)
 
 Block Scope:
 - Scope definition: difference between `var`, `let`, `const`
@@ -189,7 +190,8 @@ Closure:
 - First definition of closure:
   A function that contains at least one variable, and one nested scope
 - Encapsulation: Isolating scopes with IIFE vs. SIAF”
-04/02/2020	“Review from previous topics 
+
+[04/02/2020](04-02/index.js)	“Review from previous topics 
 Objects
 - Object literals: Property definition
   `const <namespace> = { <key 1>: <value 1>, <key 2>: <value 2>, ... }`
@@ -206,16 +208,16 @@ Conversion and iterations:
 - Accessing properties with bracket notation (w. vars)
 - Property values to array: `Object.values(<object>)`
 
-05/02/2020	- Review from previous topics: Objects
+[05/02/2020](05-02/index.js)	- Review from previous topics: Objects
 Objects
 - Object literals: Property definition
 `const <namespace> = { <key 1>: <value 1>, <key 2>: <value 2>, ... }`
 - Accessing properties with bracket notation (no variables)
 - Accessing properties with dot notation”
 
-06/02/2020	- Review from previous topics: objects, arrays, functions
+[06/02/2020](06-02/index.js)- Review from previous topics: objects, arrays, functions
 
-10/02/2020	- Review from previous topics
+[10/02/2020](10-02/index.js)	- Review from previous topics
 
 Nesting arrays and objects:
 - Nesting and iterating over objects in arrays
@@ -225,7 +227,7 @@ Clones vs. References:
 - Shallow cloning objects and arrays: the spread operator `...`
 - Deep cloning objects and arrays: recursive function
 
-11/02/2020	- Nesting arrays and objects:
+[11/02/2020](11-02/index.js)	- Nesting arrays and objects:
 
 - Nesting and accessing arrays within each other
 - Nesting and accessing objects in objects
@@ -238,7 +240,7 @@ Advanced Array methods:
 - Iterating over arrays: `Array.prototype.forEach(<function>)`
 - JavaScript basic test”
 
-12/02/2020	“Review from previous topics
+[12/02/2020](12-02/index.js)	“Review from previous topics
 
 Review of the Javascript basic test
 Destructuring:
@@ -257,7 +259,7 @@ Advanced Array methods:
 Logical Thinking III:
 - Sorting arrays with `Array.prototype.sort(<function>)`
 
-13/02/2020	- Introduction: 3 types of errors (compilation, runtime, logic)
+[13/02/2020](13-02/index.js)	- Introduction: 3 types of errors (compilation, runtime, logic)
 
 Runtime errors:
 - Catching errors: `try { ... } catch (e) { ... }`
@@ -265,15 +267,15 @@ Runtime errors:
 - The error object (brief intro): `new Error(<message>);`
 Review before javascript advanced test
 
-17/02/2020	- JavaScript Advanced test
+[17/02/2020](17-02/index.js)	- JavaScript Advanced test
 - Each student reviewing and working on the exercises from the test
 
-18/02/2020	- Students working individually on exercises reviewing javascript and github 
+[18/02/2020](18-02/index.js)	- Students working individually on exercises reviewing javascript and github 
 - 1 on 1's with students after JavaScript advanced test
 
-19/02/2020	- Students working individually on exercises reviewing javascript and github 
+[19/02/2020](19-02/index.js)	- Students working individually on exercises reviewing javascript and github 
 - 1 on 1's with students after JavaScript advanced test
 
-20/02/2020	- GitHub review 
+[20/02/2020](20-02/index.js)	- GitHub review 
 - Students working individually on exercises reviewing javascript and github
 - 1 on 1's with students after JavaScript advanced test
