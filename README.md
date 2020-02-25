@@ -269,15 +269,15 @@ Runtime errors:
 - The error object (brief intro): `new Error(<message>);`
 Review before javascript advanced test
 
-[17/02/2020](17-02/index.js)	- JavaScript Advanced test
+17/02/2020 - JavaScript Advanced test
 - Each student reviewing and working on the exercises from the test
 
-[18/02/2020](18-02/index.js)	- Students working individually on exercises reviewing javascript and github 
+18/02/2020 - Students working individually on exercises reviewing javascript and github 
 - 1 on 1's with students after JavaScript advanced test
 
-[19/02/2020](19-02/index.js)	- Students working individually on exercises reviewing javascript and github 
+19/02/2020 - Students working individually on exercises reviewing javascript and github 
 - 1 on 1's with students after JavaScript advanced test
 
-[20/02/2020](20-02/index.js)	- GitHub review 
+20/02/2020 - GitHub review 
 - Students working individually on exercises reviewing javascript and github
 - 1 on 1's with students after JavaScript advanced test
