@@ -34,6 +34,20 @@ Introduction to HTML
 - Getting a bunch of stuff but not all: The `class` attr, `.[class]` selector
 - iframe
 
+[26/02/2020](26-02)
+- Review from 24 and 25/02/2020 
+- The image tag: `<img src=""[URL]"">`
+- Image size`width` 
+- Framing images: `px` 
+- `border: [SIZE] solid [COLOR]`
+- Rounding images: `border-radius: [BORDER-SIZE]`, `%` 
+  when to use - serif, sans-serif, monospace and cursive
+- Pre Installed System fonts: css `font-family: <font-name>`
+- Providing fallbacks: font stack values for `font-family`
+- Getting more fonts: Google fonts and css `@import`
+- Setting text size with `font-size`
+- Coloring links on `:hover`
+
 
 
 
