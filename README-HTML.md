@@ -47,7 +47,13 @@ Introduction to HTML
 - Getting more fonts: Google fonts and css `@import`
 - Setting text size with `font-size`
 - Coloring links on `:hover`
-
+- Separating content units with `<section>`
+- Marking related content with `<aside>`
+- Self contained content with `<article>`
+- Top and bottom of segments: `<header>` and `<footer>`
+- Generic boxes with `<div>`
+- `<img>` vs. `background-image`, `background-size`, `background-repeat`, `background-position`
+- Putting it all together with the `background` shorthand
 
 
 
