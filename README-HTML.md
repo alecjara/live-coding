@@ -16,7 +16,7 @@ Introduction to HTML
 - Images`<img src="[URL]">`
 - Introducion to CSS: `<style>`, `<link rel="stylesheet" href="[path-to-file]">`
 - Formatting Elements `<strong>`, `<em>`, `<sup>`, `<sub>`, `<b>`, `<i>`, `<mark>`
-- Form
+- Form (action, method="POST"), input
 
 [25/02/2020](25-02)
 - Review from 24/02/2020
@@ -32,6 +32,7 @@ Introduction to HTML
 - Formatting Elements `<span>`
 - Getting a unique element on the page: The `id` attr, `#[id]` selector
 - Getting a bunch of stuff but not all: The `class` attr, `.[class]` selector
+- Form (method="GET")
 - iframe
 
 [26/02/2020](26-02)
@@ -55,6 +56,27 @@ Introduction to HTML
 - `<img>` vs. `background-image`, `background-size`, `background-repeat`, `background-position`
 - Putting it all together with the `background` shorthand
 
+[27/02/2020](27-02)
+- Review from 26/02/2020
+- `:hover`, `:active`, `:visited`
+- Image links: wrapping `<img>` with `<a>`
+- CSS adjacent sibling combinator (+): `img + p { ... }`
+- Aligning text with `text-align`
+- Centring text: comparison between `center` and `justify`
+- Italics with css `font-style`
+- Underline and strikethrough with css `text-decoration`
+- Changing case with css `text-transform`
+- Adding shadow and stroking text with css `text-shadow`
+- Setting text size with `font-size`
+- `rem` sizing 
+- Making sure boxes are the correct width: `box-sizing: border-box`
+- Spacing boxes: outside the box with `margin`, inside the box `padding`
+- Margins, paddings, width and height on inline elements
+- Changing boxes with css `display` and `inline`
+- Casting shadows: css `box-shadow`
+- Fake boxes: css `:before` and `:after` pseudo elements
+- Hiding things with css `visibility` (vs. `display: none;`)
+- Making navbars accessible: The `<nav>` element
 
 
 
