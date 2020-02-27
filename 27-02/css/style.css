@@ -1,0 +1,21 @@
+a {
+  text-decoration-color: greenyellow;
+  background-color: forestgreen;
+  text-decoration: none;
+}
+p {
+  font-size: 2rem;
+}
+a:active {
+  color: lightblue;
+}
+a:link {
+  color: pink;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  transition: 3s;
+  background-color: darkcyan;
+}
