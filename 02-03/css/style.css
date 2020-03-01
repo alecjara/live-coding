@@ -1,0 +1,6 @@
+body {
+  /* display: none; */
+}
+tr:nth-child(4n + 1) {
+  background-color: yellow;
+}
