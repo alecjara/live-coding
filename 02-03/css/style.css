@@ -84,7 +84,7 @@ contains the substring */
 a:visited {
   color: pink;
 }
-/* : */
+/* :focus */
 input:focus {
   outline: none;
   border: 2px pink solid;
