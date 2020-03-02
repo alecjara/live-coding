@@ -90,6 +90,8 @@ Review from last week: HTML and CSS
 - Pseudo-classes
 - State pseudo class
 -`:hover`, `:active`, `:visited`
+- css `:before` and `:after` pseudo elements
+- `visibility` (vs. `display: none;`)
 
 
 
