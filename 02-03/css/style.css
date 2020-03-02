@@ -104,20 +104,7 @@ input:checked {
   width: 20px;
   background-color: sandybrown;
 }
-/* ::after  
-:after css2 and ::after is css3*/
-div[class="text-main"]::after {
-  content: " Hadi";
-}
-/*  IE 
- div[class="text-main"]:after {
-} */
-div[class="text-main"]::before {
-  content: " Hello";
-}
-div[class="text-main"]::before {
-  content: " Hi";
-}
+
 /* :target */
 :target {
   border: 3px black dashed;
@@ -136,4 +123,22 @@ tr:nth-last-child(2) {
 td {
   border: 2px black solid;
   border-radius: 20%;
+}
+
+/* pseudo elements  */
+/* ::after  
+:after css2 and ::after is css3*/
+div[class="text-main"]::after {
+  content: " Hadi";
+}
+/*  IE 
+   div[class="text-main"]:after {
+  } */
+/* ::before  
+  :before css2 and ::before is css3*/
+div[class="text-main"]::before {
+  content: " Hello";
+}
+div[class="text-main"]::before {
+  content: " Hi";
 }
