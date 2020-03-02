@@ -142,3 +142,7 @@ div[class="text-main"]::before {
 div[class="text-main"]::before {
   content: " Hi";
 }
+
+tr:nth-child(1) :first-child {
+  background-color: slateblue;
+}
