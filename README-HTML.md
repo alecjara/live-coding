@@ -78,6 +78,19 @@ Introduction to HTML
 - Hiding things with css `visibility` (vs. `display: none;`)
 - Making navbars accessible: The `<nav>` element
 
+[02/03/2020](02-03)
+Review from last week: HTML and CSS
+
+- element selectors, combining multiple selectors
+- CSS adjacent sibling combinator (+): `img + p { ... }`
+- pseudo child selectors: `:nth-child() { ... }`
+- Browser compatibility 
+- Focusing and outlining: `:focus` 
+- selecting inputs by type with attribute selectors
+- Pseudo-classes
+- State pseudo class
+-`:hover`, `:active`, `:visited`
+
 
 
 
