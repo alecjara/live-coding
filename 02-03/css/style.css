@@ -71,9 +71,9 @@ value ends with  */
 /* [attribute*=value] Selector
 contains the substring */
 [class*="text"] {
-  font-size: 5rem;
-  width: 200px;
-  height: 200px;
+  font-size: 1rem;
+  width: 800px;
+  height: 80px;
 }
 /* pseudo class  */
 /* :hover */
@@ -116,5 +116,7 @@ div[class="text-main"]::before {
   content: " Hello";
 }
 /* :target */
-
+:target {
+  border: 3px black dashed;
+}
 /* :nth-child() */
