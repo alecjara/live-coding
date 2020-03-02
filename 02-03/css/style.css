@@ -18,7 +18,7 @@ element  AND element
 */
 span,
 div {
-  background-color: turquoise;
+  /* background-color: turquoise; */
 }
 /* element element Selector
 element inside element 
@@ -45,7 +45,7 @@ span ~ p {
 }
 /* [attribute] Selector */
 [name] {
-  background-color: slateblue;
+  background-color: lightcyan;
 }
 /* [attribute=value] Selector  */
 [type="submit"] {
@@ -64,13 +64,42 @@ begins with the value */
 }
 /* [attribute$=value] Selector
 value ends with  */
-
+[alt$="bigTree"] {
+  padding: 5px;
+}
 /* [attribute*=value] Selector
 contains the substring */
-
+[class*="text"] {
+  font-size: 5rem;
+  width: 200px;
+  height: 200px;
+}
 /* pseudo class  */
 /* :hover */
+[class*="text"]:hover {
+  background-color: olive;
+}
 /* :visited */
+a:visited {
+  color: pink;
+}
+/* : */
+input:focus {
+  outline: none;
+  border: 2px pink solid;
+  box-shadow: 3px 3px 3px #ccc;
+}
+input[name="firstName"] + span {
+  color: red;
+}
+
+/* :active */
+a:active {
+  background-color: plum;
+  border-radius: 30%;
+}
+/* :checked */
+
 /* :nth-child() */
 
 /* ::after  
