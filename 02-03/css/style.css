@@ -115,8 +115,25 @@ div[class="text-main"]::after {
 div[class="text-main"]::before {
   content: " Hello";
 }
+div[class="text-main"]::before {
+  content: " Hi";
+}
 /* :target */
 :target {
   border: 3px black dashed;
 }
 /* :nth-child() */
+tr:nth-child(2n) {
+  background-color: darkolivegreen;
+}
+tr:nth-child(2n + 1) {
+  background-color: black;
+  color: white;
+}
+tr:nth-last-child(2) {
+  background-color: saddlebrown;
+}
+td {
+  border: 2px black solid;
+  border-radius: 20%;
+}
