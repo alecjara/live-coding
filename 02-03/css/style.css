@@ -146,3 +146,6 @@ div[class="text-main"]::before {
 tr:nth-child(1) :first-child {
   background-color: slateblue;
 }
+tr:nth-child(5) [id="14"] {
+  background-color: wheat;
+}
