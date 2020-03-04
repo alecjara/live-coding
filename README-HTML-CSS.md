@@ -2,7 +2,7 @@
 
 ## HTML & CSS
 
-[24/02/2020](24-02)
+[24/02/2020](feb/24-02)
 
 Introduction to HTML
 - HTML tags, Attributes,
@@ -18,7 +18,7 @@ Introduction to HTML
 - Formatting Elements `<strong>`, `<em>`, `<sup>`, `<sub>`, `<b>`, `<i>`, `<mark>`
 - Form (action, method="POST"), input
 
-[25/02/2020](25-02)
+[25/02/2020](feb/25-02)
 - Review from 24/02/2020
 - HTML + CSS
 - Inline styles: DON'T `<p style=""color: red;"">`
@@ -35,7 +35,7 @@ Introduction to HTML
 - Form (method="GET")
 - iframe
 
-[26/02/2020](26-02)
+[26/02/2020](feb/26-02)
 - Review from 24 and 25/02/2020 
 - The image tag: `<img src=""[URL]"">`
 - Image size`width` 
@@ -56,7 +56,7 @@ Introduction to HTML
 - `<img>` vs. `background-image`, `background-size`, `background-repeat`, `background-position`
 - Putting it all together with the `background` shorthand
 
-[27/02/2020](27-02)
+[27/02/2020](feb/27-02)
 - Review from 26/02/2020
 - `:hover`, `:active`, `:visited`
 - Image links: wrapping `<img>` with `<a>`
@@ -78,7 +78,7 @@ Introduction to HTML
 - Hiding things with css `visibility` (vs. `display: none;`)
 - Making navbars accessible: The `<nav>` element
 
-[02/03/2020](02-03)
+[02/03/2020](mar/02-03)
 Review from last week: HTML and CSS
 
 - element selectors, combining multiple selectors
