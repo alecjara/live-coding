@@ -92,7 +92,20 @@ Review from last week: HTML and CSS
 -`:hover`, `:active`, `:visited`
 - css `:before` and `:after` pseudo elements
 - `visibility` (vs. `display: none;`)
+- Periodic Table 
 
+[04/03/2020](mar/04-03)
+Review of past lessons (table, input, 
 
+- `:nth-child() { ... }`
+- `vw` and `vh` units
+- `box-sizing: border-box`
+- `display` and `inline`, `block` and `inline-block`
+- `display: flex`
+- `justify-content` and `align-items`
+- Image size: aspect ratio concept, `width` attribute
+- Framing images: `px` concept, `border: [SIZE] solid [COLOR]`
+- Rounding images: `border-radius: [BORDER-SIZE]`, `%` 
+- Chess board 
 
 
