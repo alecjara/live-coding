@@ -58,6 +58,7 @@
   text-align: center;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .form-input {
   width: 100vw;
