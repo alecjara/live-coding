@@ -55,10 +55,14 @@
   font-size: 2rem;
   width: 85vw;
   height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
 }
 .form-input {
   width: 100vw;
   height: 50vh;
+  background-color: rebeccapurple;
 }
 /* visual content like img */
 /*  % , border-radius */
