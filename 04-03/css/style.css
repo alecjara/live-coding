@@ -70,6 +70,8 @@
   background-color: rebeccapurple;
 }
 form {
+  display: inline-block;
+  text-align: center;
 }
 /* visual content like img */
 /*  % , border-radius */
