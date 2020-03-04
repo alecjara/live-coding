@@ -73,5 +73,19 @@ form {
   display: inline-block;
   text-align: center;
 }
+.img-text {
+  background-color: yellow;
+  text-align: center;
+}
+.last-text {
+  background-color: magenta;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.last-text::first-letter {
+  color: rgb(26, 124, 7);
+  font-weight: bold;
+}
+
 /* visual content like img */
 /*  % , border-radius */
