@@ -89,3 +89,12 @@ form {
 
 /* visual content like img */
 /*  % , border-radius */
+.last-img {
+  /* margin: 0 auto; */
+  width: 100vw;
+  text-align: center;
+}
+.last-img img {
+  width: 50vw;
+  border-radius: 20% 50% 90%;
+}
