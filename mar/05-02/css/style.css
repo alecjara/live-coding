@@ -1,10 +1,10 @@
 * {
   box-sizing: border-box;
-  margin: 0;
+  /* margin: 0; */
   font-size: 16px;
 }
 body {
-  margin: 0 auto;
+  /* margin: 0 auto; */
   /* background-color: aqua; */
 }
 /* background-image  */
@@ -31,7 +31,7 @@ h1 {
 /* background-clip: border-box; */
 .ex1 {
   border: 4px black solid;
-  padding: 3.5rem;
+  padding: 20px;
   background: url(../img/sky.png);
   background-size: 30px;
   background-repeat: no-repeat;
@@ -39,19 +39,19 @@ h1 {
 }
 .ex2 {
   border: 4px black solid;
-  padding: 3.5rem;
+  padding: 20px;
   background: url(../img/sky.png);
-  background-size: 30px;
+  background-size: 130px;
   background-repeat: no-repeat;
-  /* background-clip: border-box; */
+  background-clip: content-box;
 }
 .ex3 {
   border: 4px black solid;
-  padding: 3.5rem;
+  padding: 20px;
   background: url(../img/sky.png);
-  background-size: 30px;
+  background-size: 130px;
   background-repeat: no-repeat;
-  /* background-clip: border-box; */
+  background-clip: padding-box;
 }
 
 /* npm live-server */
