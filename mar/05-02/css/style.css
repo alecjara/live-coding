@@ -29,28 +29,23 @@ h1 {
 }
 
 /* background-clip: border-box; */
+
 .ex1 {
-  border: 4px black solid;
+  border: 4px black dashed;
   padding: 20px;
-  background: url(../img/sky.png);
-  background-size: 30px;
-  background-repeat: no-repeat;
+  background-color: aqua;
   background-clip: border-box;
 }
 .ex2 {
-  border: 4px black solid;
+  border: 4px black dashed;
   padding: 20px;
-  background: url(../img/sky.png);
-  background-size: 130px;
-  background-repeat: no-repeat;
+  background-color: aqua;
   background-clip: content-box;
 }
 .ex3 {
-  border: 4px black solid;
+  border: 4px black dashed;
   padding: 20px;
-  background: url(../img/sky.png);
-  background-size: 130px;
-  background-repeat: no-repeat;
+  background-color: aqua;
   background-clip: padding-box;
 }
 
