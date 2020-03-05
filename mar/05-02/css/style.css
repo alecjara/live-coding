@@ -4,8 +4,7 @@
   font-size: 16px;
 }
 body {
-  /* margin: 0 auto; */
-  /* background-color: aqua; */
+  margin: 0 auto;
 }
 /* background-image  */
 
@@ -20,11 +19,11 @@ body {
   background-image: url(../img/fly.gif), url(../img/sky.png);
   background-repeat: repeat-x, no-repeat;
   background-position: center;
-  background-size: 80rem, cover;
+  background-size: 10rem, cover;
   /* background: url(../img/sky.png),  no-repeat center; */
 }
 h1 {
-  font-size: 3.5rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -47,6 +46,18 @@ h1 {
   padding: 20px;
   background-color: aqua;
   background-clip: padding-box;
+}
+.ex4 {
+  color: transparent;
+  background-image: url(../img/tree.jpeg);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.ex5 {
+  background-image: url(../img/bird.png);
+  background-size: 55rem;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 /* npm live-server */
