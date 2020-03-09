@@ -6,8 +6,8 @@
 }
 /* font-family */
 * {
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
   box-sizing: border-box;
 }
 :root {
@@ -63,5 +63,9 @@ p {
 /* text-shadow */
 
 /* writing-mode */
-
 /* text-orientation */
+
+i {
+  color: hotpink;
+  font-size: xx-large;
+}
