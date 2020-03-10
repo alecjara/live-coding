@@ -1,8 +1,24 @@
-/* more var */
-
 /* flex-box */
 /* flex-direction */
-
+.daddy {
+  width: 100vw;
+  height: 100vh;
+}
+.baby1 {
+  background-color: red;
+  width: 250px;
+  height: 250px;
+}
+.baby2 {
+  background-color: yellow;
+  width: 250px;
+  height: 250px;
+}
+.baby3 {
+  background-color: green;
+  width: 250px;
+  height: 250px;
+}
 /* flex-wrap */
 
 /* flex-flow */
@@ -16,6 +32,8 @@
 /* vertical-align */
 
 /* visibility */
+
+/* more var */
 
 /* z-index */
 
