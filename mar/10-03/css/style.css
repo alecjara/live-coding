@@ -46,6 +46,25 @@
   order: 3;
   flex: 1;
 }
+.page-layout {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+nav {
+  width: 25%;
+}
+.main {
+  display: flex;
+  background-color: hotpink;
+  flex-direction: column-reverse;
+}
+section {
+  border: 2px solid black;
+}
+.text-one {
+  flex: 1;
+}
 /* flex-wrap */
 
 /* flex-flow */
