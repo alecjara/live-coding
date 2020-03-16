@@ -21,6 +21,11 @@
   /* flex-grow: ;
   flex-shrink: ;
   flex-basis: ; */
+  /* order all elements by default has the order of 0, if we change that will push the element to the very las */
+  /* flex-grow will take all the available space and 
+        resize the box to fill that space*/
+  /*flex basis like width in this case*/
+  /* flex : grow shrink basis*/
   display: flex;
   align-items: center;
   justify-content: center;
