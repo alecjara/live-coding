@@ -13,8 +13,10 @@ main {
   grid-template-areas:
     "box1 box1 box3 "
     "box2 box2 box3 "
-    "box4 box5 box5"
+    "box4 . box5"
     "box4 box6 box6";
+  /* if you need an empty place ypu just replace it with . (dot) */
+
   row-gap: 2rem;
   column-gap: 3rem;
   /* grid-row-gap: 3rem */
