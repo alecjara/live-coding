@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-template-columns: 250px 3rem 1fr;
+  grid-template-rows: repeat(5, 5rem);
+  height: 100vh;
+}
+
+.box1 {
+  background-color: yellow;
+}
+.box2 {
+  background-color: pink;
+}
+.box3 {
+  background-color: red;
+}
