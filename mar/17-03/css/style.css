@@ -7,7 +7,10 @@
   font-size: 16px;
   background-color: gray;
 }
-
+body {
+  border: 3px dashed red;
+  height: 75vw;
+}
 /* positions */
 /* static aka Default*/
 .main {
@@ -17,18 +20,20 @@
   margin: 0 auto;
   position: relative;
 }
-/* relative  */
 .text {
   width: 25%;
   height: 25%;
   border-radius: 50%;
+  border: 3px dashed black;
 }
+/* absolute */
 .text.long {
   background-color: hotpink;
   position: absolute;
-  left: 0;
-  top: 0;
+  right: 0;
+  top: 4rem;
 }
+/* relative  */
 .text.like {
   background-color: red;
   font-size: 2.5rem;
@@ -36,8 +41,48 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  top: 1rem;
-  left: 5rem;
+  top: 0;
+  color: chocolate;
+}
+@media print {
+  body {
+    background-color: hotpink;
+  }
 }
 
-/* absolute */
+@media only screen and (max-width: 500px) {
+  .text.like {
+    color: gold;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .text.like {
+    color: gray;
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  body {
+    background-color: indigo;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
