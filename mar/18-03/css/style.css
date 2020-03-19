@@ -20,7 +20,12 @@ body {
   animation-name: move-down;
   animation-duration: 3s;
   animation-timing-function: linear;
+  animation-delay: 0s;
   animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
 }
 
 @keyframes move-down {
