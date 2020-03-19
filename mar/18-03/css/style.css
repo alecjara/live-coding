@@ -102,15 +102,18 @@ body {
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
-  z-index: -1;
+  position: relative;
 }
+
 .line {
   width: 3rem;
   height: 0.4rem;
   background-color: grey;
   border-radius: 20%;
 }
-.line.one {
+
+.x-menu:hover .line.one {
 }
-.lone.sec {
+
+.x-menu:hover .line.sec {
 }
