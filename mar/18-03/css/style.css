@@ -8,6 +8,9 @@
   --box-width: 3rem;
   --box-color: green;
 }
+body {
+  display: flex;
+}
 .box {
   width: var(--box-width);
   height: 2rem;
