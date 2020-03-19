@@ -10,6 +10,7 @@
 }
 body {
   display: flex;
+  flex-direction: column;
 }
 .box {
   width: var(--box-width);
@@ -71,5 +72,24 @@ body {
   100% {
     width: calc(var(--box-width) * 3.5);
     background-color: green;
+  }
+}
+
+.box-up {
+  width: var(--box-width);
+  font-size: var(--box-width);
+  position: relative;
+  animation-name: up;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-direction: alternate;
+}
+
+@keyframes up {
+  from {
+    top: 300px;
+  }
+  to {
+    top: 0;
   }
 }
