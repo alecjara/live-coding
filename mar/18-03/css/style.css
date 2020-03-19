@@ -10,7 +10,7 @@
 }
 body {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
 }
 .box {
   width: var(--box-width);
@@ -92,4 +92,25 @@ body {
   to {
     top: 0;
   }
+}
+
+.x-menu {
+  background-color: lightgray;
+  width: 4rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  z-index: -1;
+}
+.line {
+  width: 3rem;
+  height: 0.4rem;
+  background-color: grey;
+  border-radius: 20%;
+}
+.line.one {
+}
+.lone.sec {
 }
