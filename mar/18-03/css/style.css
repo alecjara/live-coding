@@ -112,8 +112,14 @@ body {
   border-radius: 20%;
 }
 
-.x-menu:hover .line.one {
+.x-menu {
 }
 
+.x-menu:hover .line.one {
+  transform: rotate(0.15turn);
+  position: absolute;
+}
 .x-menu:hover .line.sec {
+  background-color: green;
+  transform: rotate(-0.15turn);
 }
