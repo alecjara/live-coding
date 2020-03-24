@@ -10,7 +10,8 @@ p {
   background-color: lightcoral;
   overflow: scroll;
   /* white-space: normal;
-  overflow-wrap: normal; */
+  overflow-wrap: normal;
+  https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-wrap */
 }
 /* %100 of the parent */
 .main {
