@@ -9,6 +9,11 @@ nav {
   width: 20vw;
   height: 50vh;
   margin: 0;
+  transition: 4s ease-in;
+  transition-delay: 7s;
+  animation-name: crazy;
+}
+@keyframes crazy {
 }
 ul {
   list-style: none;

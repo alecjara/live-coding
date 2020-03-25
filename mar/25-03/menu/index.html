@@ -7,13 +7,24 @@
     <title>Menu</title>
   </head>
   <body>
-    <button>⎈</button>
-    <nav class="main-nav" id="nav">
+    <button onclick="shMenu()">⎈</button>
+    <nav class="main-nav" id="menuBox">
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Call</a></li>
       </ul>
     </nav>
+    <script>
+      const shMenu = () => {
+        console.log("Hi, i am function");
+        // nav.style.display = "none";
+        if (menuBox.style.display == "none") {
+          menuBox.style.display = "block";
+        } else {
+          menuBox.style.display = "none";
+        }
+      };
+    </script>
   </body>
 </html>
