@@ -134,8 +134,8 @@ Review of past lessons
 - Small shorthand: css `flex-flow`
 - YouTube exercise 
 
-
 11/03 continue working on YouTube exercise
+
 12/03 freecode training
 
 [16/03/2020](mar/16-03)
@@ -171,6 +171,13 @@ Exercise: X-menu
 - Dealing with scrollers: css `overflow` property
 - Wrapping long words: css `overflow-wrap`
 Exercise: Clippy website
+
+
+[24/03/2020](mar/24-03)
+- connecting Javascript with HTML and CSS.
+- onclick in Javascript 
+- Making a fancy menu and using `onclick` effect for the mobile app.
+
 
 
 
