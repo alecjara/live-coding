@@ -175,8 +175,9 @@ Exercise: Clippy website
 
 [24/03/2020](mar/24-03)
 - connecting Javascript with HTML and CSS.
-- onclick in Javascript 
-- Making a fancy menu and using `onclick` effect for the mobile app.
+- `onclick` in Javascript 
+- Making a menu with fancy effects
+- using `onclick` effect on the menu for the mobile app.
 
 
 
