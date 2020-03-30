@@ -154,6 +154,23 @@ CSS Grid:
 - Using our `@media` queries for layout
 - Exercise: Mock up of full webpage *Responsive*
 
+[18/03/2020](mar/18-03)
+- Animations
+- `@keyframes [name] { ... }`
+- `:hover` and `:focus`, css `animation`
+- `from`, `to` and `%` directives
+- `animation-iteration-count`, `animation-direction`
+
+19/03 
+more of Animations 
+Exercise: X-menu 
+
+[23/03/2020](mar/23-03)
+- small example of connecting Javascript with HTML and CSS.
+- `svg`
+- Dealing with scrollers: css `overflow` property
+- Wrapping long words: css `overflow-wrap`
+Exercise: Clippy website
 
 
 
