@@ -175,11 +175,20 @@ Exercise: Clippy website
 
 [24/03/2020](mar/24-03)
 - connecting Javascript with HTML and CSS.
-- `onclick` in Javascript 
+- The `<script>` tag
+- External JS with `<script src=""..."">`
 - Making a menu with fancy effects
-- using `onclick` effect on the menu for the mobile app.
+- Exercise: using `onclick` effect on the menu for the mobile app.
 
+[25/03/2020](mar/25-03)
+- Review from previous days
+- Nice form elements  
+- Manipulating classes: `Element.classList` methods 
+- Exercise: Continue with YouTube app (check box)
 
+26/03 Exercise: The perfect menu
+
+[30/03/2020](mar/30-03)
 
 
 
