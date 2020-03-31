@@ -10,3 +10,6 @@
 div {
   border: 3px solid black;
 }
+.container {
+  background-image: url();
+}
