@@ -108,4 +108,79 @@ Review of past lessons (table, input,
 - Rounding images: `border-radius: [BORDER-SIZE]`, `%` 
 - Chess board 
 
+[09/03/2020](mar/09-03)
+Review of past lessons
+
+- @font-face
+- :root
+- Writing text in RTL languages with `direction: rtl;`
+- Aligning text with `text-align`
+- Centring text: comparison between `center` and `justify`
+- `font-weight`, choosing font weights on google fonts
+- Italics with `font-style`
+- `text-decoration`
+- `text-transform`
+- `text-shadow`
+- fontawesome
+- `<i class=""fas [icon-class]""></i>`
+
+[10/03/2020](mar/10-03)
+Review of past lessons
+
+- Making navbars accessible: The `<nav>` element
+- Flexible boxes: `display: flex`, flex child & flex parent concept
+- Aligning and justifying: css `justify-content` and `align-items`
+- Direction and wrapping: css `flex-direction` and `flex-wrap`
+- Small shorthand: css `flex-flow`
+- YouTube exercise 
+
+11/03 continue working on YouTube exercise
+
+12/03 freecode training
+
+[16/03/2020](mar/16-03)
+CSS Grid:
+- `.container { display: grid }`
+- `grid-template-columns` and `fr` unit
+- `grid-column: [start] / [end];`
+- `grid-row: [start] / [end];`
+- `grid-template-areas`
+- `grid-area`
+- Grid exercise
+- Mock up sign in page
+
+[17/03/2020](mar/17-03)
+- css `position` and `static`, `relative`, `absolute`
+- Using our `@media` queries for layout
+- Exercise: Mock up of full webpage *Responsive*
+
+[18/03/2020](mar/18-03)
+- Animations
+- `@keyframes [name] { ... }`
+- `:hover` and `:focus`, css `animation`
+- `from`, `to` and `%` directives
+- `animation-iteration-count`, `animation-direction`
+
+19/03 
+more of Animations 
+Exercise: X-menu 
+
+[23/03/2020](mar/23-03)
+- small example of connecting Javascript with HTML and CSS.
+- `svg`
+- Dealing with scrollers: css `overflow` property
+- Wrapping long words: css `overflow-wrap`
+Exercise: Clippy website
+
+
+[24/03/2020](mar/24-03)
+- connecting Javascript with HTML and CSS.
+- `onclick` in Javascript 
+- Making a menu with fancy effects
+- using `onclick` effect on the menu for the mobile app.
+
+
+
+
+
 
