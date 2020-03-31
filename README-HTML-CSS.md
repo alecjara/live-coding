@@ -189,7 +189,14 @@ Exercise: Clippy website
 26/03 Exercise: The perfect menu
 
 [30/03/2020](mar/30-03)
+- Bootstrap 
+- Adding bootstrap to our project (with CDNs): 
+- JS dependencies and bootstrap css, `<script src=""""..."""">`
+- Smart copy pasting: read, understand, copy, modify
+- Navbar with bootstrap
+- Exercise: Build your own (random stuff with bootstrap)
 
-
-
+[31/03/2020](mar/31-03)
+- Table with Bootstrap 
+- Form with Bootstrap
 
