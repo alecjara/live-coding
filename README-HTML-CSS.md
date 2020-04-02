@@ -199,4 +199,9 @@ Exercise: Clippy website
 [31/03/2020](mar/31-03)
 - Table with Bootstrap 
 - Form with Bootstrap
+- Exercise: porfolio with Bootstrap
+
+01/04 Continue Portfolio project with Bootstrap
+
+02/04 Presentations of Perfolio project
 
