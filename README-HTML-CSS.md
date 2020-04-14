@@ -203,5 +203,7 @@ Exercise: Clippy website
 
 01/04 Continue Portfolio project with Bootstrap
 
-02/04 Presentations of Perfolio project
+02/04 Presentations of Portfolio project
 
+[14/04/2020](apr/14-04)
+- Project Template HTML CSS boilerplate with built-in sass support 
