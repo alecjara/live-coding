@@ -45,9 +45,6 @@ a {
   display: block;
   transition: all 0.4s ease-in;
 }
-.subnav:hover {
-  cursor: help;
-}
 .list-item:hover {
   background-color: whitesmoke;
   color: rgba(79, 162, 190, 0.916);
