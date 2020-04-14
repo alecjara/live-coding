@@ -1,4 +1,4 @@
-# Project templet
+# Project template
 
 An HTML CSS boilerplate with built-in sass support:
 
