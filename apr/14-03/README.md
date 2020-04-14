@@ -34,6 +34,16 @@ in order to create `package.json` file
    }
    ```
 
+1. create `.gitignore` and skip this files
+
+```
+dist/
+
+src/styles/
+
+node_modules/
+```
+
 1. create folder `src`
 
 1. create your project folders inside `src` folder, you will need (scss,img,scripts) folders and `index.html` file
