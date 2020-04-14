@@ -141,7 +141,7 @@ The `scss` folder will contain any `scss` or `css` files (depending on your pref
 
 `style.scss` is your style _**entry point**_. Any other `scss` or `css` imported to this file can be used, and any styles written directly to this file will be applied.
 
-### `ima` or `fonts`
+### `img` or `fonts`
 
 For the sake of organization and good project structure practices, please use these folders in order to keep your images and fonts respectively.
 
