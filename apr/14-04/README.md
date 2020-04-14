@@ -66,6 +66,8 @@ node_modules/
    git add . && git commit -m "Initial commit"
    ```
 
+   PS: Remember to push to Github
+
 1. Install the dependencies
 
    ```
@@ -89,6 +91,8 @@ Transpile sass and copy relevant files from **src** to **dist** to prepare your 
 ```
 npm run build
 ```
+
+PS: Remember to push to Github
 
 ### Deploy to Github Pages
 
