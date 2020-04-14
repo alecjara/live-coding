@@ -34,7 +34,7 @@ in order to create `package.json` file
    }
    ```
 
-1. create `.gitignore` and skip this files
+1. create `.gitignore` and skip this folders
 
 ```
 dist/
