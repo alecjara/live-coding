@@ -207,3 +207,22 @@ Exercise: Clippy website
 
 [14/04/2020](apr/14-04)
 - Project Template HTML CSS boilerplate with built-in sass support 
+- Installing dependencies: `npm install`
+- Running for development: `npm start`
+- Building for publication: `npm run build`
+- Publishing online: `npm run deploy` 
+- Project structure: `scss` and `styles` folders
+
+[15/04/2020](apr/15-04)
+- Installing sass: `npm install -g sass`
+- Creating input: `.scss` vs. `.sass`
+- Sassy Magic: nesting css rules 
+- Comparing the output: `sass [input file] [output file]`
+- Converting a folder into a folder `sass [input folder]:[output folder]`
+- Watching for changes: `sass --watch [input folder]:[output folder]`
+- Sass variables: Defining with `$[name]: [value]`, Using with `$[name]`
+- Sass functions
+- Sass maps
+
+
+
