@@ -1,0 +1,15 @@
+$my-color: rgba(41, 61, 82, 0.541);
+$box-size: 30px;
+
+body {
+  background-color: $my-color;
+}
+
+nav {
+  li {
+    list-style: none;
+  }
+  a {
+    color: tomato;
+  }
+}
