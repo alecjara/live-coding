@@ -1,8 +1,19 @@
 $my-color: rgba(41, 61, 82, 0.541);
 $box-size: 30px;
+$box-color: pink;
+$colors: (
+  nice: red,
+  cool: black,
+  fun: #3333,
+);
 
 body {
-  background-color: $my-color;
+  background-color: map-get($colors, cool);
+  #box {
+    width: $box-size;
+    height: $box-size;
+    background-color: $box-color;
+  }
 }
 
 nav {
@@ -11,5 +22,8 @@ nav {
   }
   a {
     color: tomato;
+    &:hover {
+      background-color: black;
+    }
   }
 }
