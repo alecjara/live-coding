@@ -223,6 +223,14 @@ Exercise: Clippy website
 - Sass variables: Defining with `$[name]: [value]`, Using with `$[name]`
 - Sass functions
 - Sass maps
+- Project: color guide in Sass
 
-
+[16/04/2020](apr/16-04)
+- Review from previous days (Sass)
+- Defining mixins: `@mixin [name](){ ... }`
+- Using mixins: `@include [name]()`
+- Parameters and arguments: 
+  `@mixin [name]([parameters])`, `@include [name]([arguments])`
+- Main use case for mixins: Using bootstrap breakpoint mixins
+- Project: continue color guide in Sass with extra points.
 
