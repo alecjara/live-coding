@@ -1,0 +1,15 @@
+@mixin flex-forever {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  @include flex-forever;
+  background-color: pink;
+}
+
+.text-center {
+  @include flex-forever;
+}
