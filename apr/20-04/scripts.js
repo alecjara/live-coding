@@ -22,6 +22,19 @@
 // are objects supplied by a certain environment.
 // like in browser environment you will find window
 // in node.js environment you will find NodeList
+
 // -Native object-
 // re standard built-in objects provided by Javascript.
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
+
+// window.alert("Hi you are here");
+// let x = window.prompt("enter your name", "Ali");
+// console.log(x);
+
+function change() {
+  window.document.getElementsByTagName("h1")[0].outerHTML =
+    "<h6>Hi, this is me</h6>";
+  let newBox = document.getElementById("main");
+  console.log(newBox);
+  newBox.style.backgroundColor = "red";
+}
