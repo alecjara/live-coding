@@ -11,5 +11,5 @@
 - The Window object
 - Host object
 - Native object: [Global-Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)
-- `alert`, `prompt`
+-  `window.prompt()` and `window.alert()`
 - Project: The Guessing Game
