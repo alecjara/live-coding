@@ -46,4 +46,5 @@ const multiply = () => {
     x += `${i} * ${userNum} = ${i * userNum} <br>`;
   }
   document.querySelector(".result").innerHTML = x;
+  console.log();
 };
