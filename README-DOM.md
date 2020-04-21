@@ -19,4 +19,8 @@
 - window.alert === alert
 - document.querySelectorAll() will return A non-live `NodeList` 🧐
 - Node tree https://dom.spec.whatwg.org/#concept-node
+- `document.getElementById(<id string>)`
+- `HTMLElement.style` property
+- `document.querySelector(<selector string>)`
+- `document.querySelectorAll(<selector string>)`
 
