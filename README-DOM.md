@@ -13,3 +13,10 @@
 - Native object: [Global-Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)
 -  `window.prompt()` and `window.alert()`
 - Project: The Guessing Game
+
+[21/04/2020](apr/21-04)
+- review from yesterday's lesson
+- window.alert === alert
+- document.querySelectorAll() will return A non-live `NodeList` 🧐
+- Node tree https://dom.spec.whatwg.org/#concept-node
+
