@@ -18,3 +18,18 @@
 // In the context of the DOM, a node is a single point in the node tree. Various things that are nodes are the document itself, elements, text, and comments.
 
 // Node tree https://dom.spec.whatwg.org/#concept-node
+
+let avatar = document.querySelector(".img");
+console.log(avatar);
+//avatar.innerHTML = "cool";
+// let list = avatar.querySelectorAll("span");
+let list = document.querySelectorAll(".img span");
+console.log(list);
+
+list.forEach((item) => {
+  console.log(item);
+  item.innerText = "nice";
+  item.style.backgroundColor = "red";
+});
+console.log(list.length);
+list[2].style.color = "pink";
