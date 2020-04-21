@@ -40,3 +40,22 @@ console.log(navList);
 let specialOnes = navList.querySelectorAll("li[class='highlight']");
 console.log(specialOnes);
 specialOnes[0].innerText = " Nice one";
+let moreClass = document.querySelector(".main");
+moreClass.classList.add("small");
+moreClass.classList.add("textRtl", "flexSize");
+moreClass.classList.remove("textRtl");
+let classArr = ["classOne", "classTwo"];
+
+// adding more classes to the div using ...
+moreClass.classList.add(...classArr);
+console.log(moreClass.classList);
+moreClass.style.color = "blue";
+moreClass.style.backgroundColor = "gray";
+moreClass.style.fontSize = "1.5rem";
+// font-size in js fontSize
+moreClass.style.marginLeft = "5rem";
+moreClass.style.display = "flex";
+moreClass.style.justifyContent = "center";
+
+document.write("Hi I am Hadi");
+document.write("<h1>Coo this is me 😎</h1>");
