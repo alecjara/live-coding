@@ -23,6 +23,7 @@ let avatar = document.querySelector(".img");
 console.log(avatar);
 //avatar.innerHTML = "cool";
 // let list = avatar.querySelectorAll("span");
+// div.img
 let list = document.querySelectorAll(".img span");
 console.log(list);
 
@@ -33,3 +34,9 @@ list.forEach((item) => {
 });
 console.log(list.length);
 list[2].style.color = "pink";
+let navList = document.querySelector("#menuList");
+console.log(navList);
+// > + ~
+let specialOnes = navList.querySelectorAll("li[class='highlight']");
+console.log(specialOnes);
+specialOnes[0].innerText = " Nice one";
