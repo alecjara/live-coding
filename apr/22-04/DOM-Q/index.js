@@ -22,28 +22,45 @@ menuCat.forEach(({ style: category }) => {
 
 let warning = document.getElementById("warning");
 warning.style.fontSize = "2rem";
-warning.style.fontStyle = "italic";
-warning.style.borderBottom = "1px solid black";
+warning.style.marginBottom = "0";
+warning.style.marginLeft = "1.5rem";
 
 //Create a function named "colorGenerator" that returns a different color. The returned random color should also include set transparency. Select the unordered lists with the class of food-category. Give each list a different background color using the function that you created.
-function colorGen() {
+const colorGen = () => {
   let result = "#";
   let HexNum = "0123456789ABCDEF";
   for (let i = 0; i < 6; i++) {
     result += HexNum[Math.floor(Math.random() * 16)];
-    // console.log(result);
   }
   result += "50";
   return result;
-}
-//console.log(colorGen());
+};
+// color generator in other way 😉
+
+const colorGenOtherWay = () => {
+  let r = Math.floor(Math.random() * 255);
+  let g = Math.floor(Math.random() * 255);
+  let b = Math.floor(Math.random() * 255);
+  let a = Math.random();
+  return `rgba(${r}, ${g}, ${b}, ${a})`;
+};
 let foods = document.querySelectorAll(".food-category");
 
 foods.forEach(({ style: item }) => {
-  item.backgroundColor = colorGen();
+  // item.backgroundColor = colorGen();
+  item.backgroundColor = colorGenOtherWay();
+  item.width = "30%";
   item.height = "10rem";
+  item.textAlign = "center";
+  item.padding = "1rem";
+  item.borderRadius = "5px";
 });
-// Align the food-category lists in a row on desktop. Make sure that the page is responsive and also works on mobile.
+
+const foodItems = document.querySelectorAll(".food-item");
+foodItems.forEach(({ style: item }) => {
+  item.marginTop = "1rem";
+  item.listStyle = "none";
+});
 
 // Select all even allergy-info items. Give the even items a different background color.
 let allergyItems = document.querySelectorAll(".allergy-info");
@@ -52,8 +69,35 @@ allergyItems.forEach(({ style: item }, i) => {
     item.backgroundColor = "pink";
   }
   item.paddingLeft = "1rem";
+  item.paddingLeft = "1rem";
+  item.lineHeight = "1.75";
 });
 
 // Make the allergy-warning appear as a column in the center of the page.
+let allergySection = document.querySelector(".allergy-warning");
+allergySection.style.display = "flex";
+allergySection.style.flexFlow = "column";
+allergySection.style.justifyContent = "center";
+allergySection.style.alignItems = "center";
+
+let allergyList = document.querySelector(".allergies");
+allergyList.style.width = "20rem";
+allergyList.style.listStyle = "none";
+allergyList.style.marginTop = "1rem";
 
 //The descriptions in the footer should also be styled, e.g. a rounded border with a background color. They should appear in a column for mobile and in a row for desktop.
+let footer = document.querySelector(".footer");
+footer.style.display = "flex";
+footer.style.flexFlow = "row wrap";
+footer.style.justifyContent = "center";
+let description = document.querySelectorAll(".food-desc");
+description.forEach(({ style: desc }) => {
+  desc.border = "5px solid orange";
+  desc.borderRadius = "100%";
+  desc.height = "7rem";
+  desc.width = "7rem";
+  desc.display = "flex";
+  desc.justifyContent = "center";
+  desc.alignItems = "center";
+  desc.margin = "1rem";
+});
