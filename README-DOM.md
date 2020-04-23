@@ -30,6 +30,13 @@
 - `document.write()` 
 - `document.createElement(<tag name>)`
 - `Element.appendChild(<Element object>)`
+- `forEach`
 - Project: To-Do List with Sass and DOM
 - [Dom-querying-solution](apr/22-04/DOM-Q)
+
+[23/04/2020](apr/23-04)
+- review from this week's lessons (`querySelector`, `functions`, `forEach`, `appendChild`)
+- `createTextNode`
+- Project: continues To-Do List with Sass and DOM (extra steps)
+
 
