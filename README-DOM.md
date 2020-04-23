@@ -23,4 +23,13 @@
 - `HTMLElement.style` property
 - `document.querySelector(<selector string>)`
 - `document.querySelectorAll(<selector string>)`
+- Project: Dom-querying
+
+[22/04/2020](apr/22-04)
+- review from yesterday's lesson
+- `document.write()` 
+- `document.createElement(<tag name>)`
+- `Element.appendChild(<Element object>)`
+- Project: To-Do List with Sass and DOM
+- [Dom-querying-solution](apr/22-04/DOM-Q)
 
