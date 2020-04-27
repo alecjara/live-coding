@@ -15,5 +15,5 @@ const addToList = () => {
   let text = document.createTextNode(userInput);
   newLi.appendChild(text);
   document.querySelector(".result").appendChild(newLi);
-  //document.querySelector("#userText").value = "";
+  document.querySelector("#userText").value = "";
 };
