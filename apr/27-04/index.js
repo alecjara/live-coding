@@ -21,6 +21,40 @@ console.log(mainText.textContent);
 // more on parentNode
 //https://developer.mozilla.org/en-US/docs/Web/API/ParentNode
 
+// closest
 let text = document.querySelector("span");
 let closestElement = text.closest(".cool");
 console.log(closestElement);
+
+// matches
+let names = document.querySelectorAll("li");
+names.forEach((name) => {
+  if (name.matches(".teacher")) {
+    console.log(`${name.textContent} is the teacher for FBW26`);
+  }
+});
+
+let allChildren = document.querySelector("body").children;
+console.log(allChildren);
+
+// querySelector
+let heading = document.querySelector("h1");
+heading.style.backgroundColor = "red";
+
+let menuList = document.getElementById("menu");
+console.log(menuList.lastElementChild);
+
+let allComments = function (element) {
+  let arr = [];
+  for (let i = 0; i < element.childNodes.length; i++) {
+    let node = element.childNodes[i];
+    if (node.nodeType == 8) {
+      arr.push(node);
+    } else {
+      arr.push.apply(arr, allComments(node));
+    }
+  }
+  return arr;
+};
+
+console.log(allComments(document));
