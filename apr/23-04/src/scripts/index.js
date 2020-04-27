@@ -22,12 +22,22 @@ const addToList = () => {
     item.backgroundColor = colorGen();
   });
   let span = document.createElement("span");
-  let text = document.createTextNode("x");
-  span.classList.add("close");
+  //let text = document.createTextNode("x");
+  span.classList.add("far", "fa-window-close", "close");
+  //span.className = ;
   console.log(span.classList);
-  span.appendChild(text);
+  //span.appendChild(text);
   let listAll = document.querySelectorAll("li");
   listAll.forEach((item) => {
     item.appendChild(span);
+  });
+
+  let close = document.querySelectorAll(".close");
+
+  close.forEach((element) => {
+    element.onclick = function () {
+      // this.parentElement.style.display = "none";
+      this.parentElement.remove();
+    };
   });
 };
