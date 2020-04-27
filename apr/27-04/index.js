@@ -44,7 +44,7 @@ heading.style.backgroundColor = "red";
 let menuList = document.getElementById("menu");
 console.log(menuList.lastElementChild);
 
-let allComments = function (element) {
+let allComments = (element) => {
   let arr = [];
   for (let i = 0; i < element.childNodes.length; i++) {
     let node = element.childNodes[i];
