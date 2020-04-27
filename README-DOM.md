@@ -43,11 +43,11 @@
 - review from last week's lessons 
 - review from last week's assingment [23/04/2020](apr/23-04)
 - Comparing `Node.previousSibling` and `Element.previousElementSibling`
-- Getting all children of an element: `ParentNode.children`
+- `ParentNode.children`
 - [Human readable elements](https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent#Differences_from_innerText)
 - [NodeType](https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeType)
 - [ParentNode](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode
 )
-- Getting an element's closest parent: `Element.closest(<selector string>)`
-- Testing an element against a selector: `Element.matches(<selector string>)`
+- `Element.closest(<selector string>)`
+- `Element.matches(<selector string>)`
 
