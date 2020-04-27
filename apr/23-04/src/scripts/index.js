@@ -23,7 +23,8 @@ const addToList = () => {
   });
   let span = document.createElement("span");
   let text = document.createTextNode("x");
-  span.className = "close";
+  span.classList.add("close");
+  console.log(span.classList);
   span.appendChild(text);
   let listAll = document.querySelectorAll("li");
   listAll.forEach((item) => {
