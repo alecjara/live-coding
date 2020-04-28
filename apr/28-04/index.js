@@ -28,7 +28,7 @@ function keyUpFunction(e) {
   this.style.backgroundColor = "pink";
   console.log(e);
   if (e.code == "KeyS") alert("You are cool");
-  if (e.code == "Enter") addToList();
+  // if (e.code == "Enter") addToList();
 }
 function keyDownFunction(e) {
   this.style.backgroundColor = "yellow";
