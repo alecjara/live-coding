@@ -28,7 +28,8 @@ function move(e) {
   if (e.code == "KeyA") goLeft();
   if (e.code == "KeyW") goUp();
   if (e.code == "KeyZ") goDown();
-  if (hStandPoint >= window.innerWidth || vStandPoint >= window.innerHeight / 2)
+  if (hStandPoint >= window.innerWidth && vStandPoint >= window.innerHeight / 2)
+    // you can use || or  &&
     alert("You win 💪🏻");
 }
 console.log(window.innerWidth);
