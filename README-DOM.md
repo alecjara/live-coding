@@ -51,3 +51,10 @@
 - `Element.closest(<selector string>)`
 - `Element.matches(<selector string>)`
 
+[28/04/2020](apr/28-04)
+- review from yesterday
+- `EventTarget.addEventListener(<namespace>, <callback>)`
+- Mouse Events: `click`, `mouseenter`, `mouseleave`
+- Keyboard Events: `keydown`, `keyup`
+- Build a simple game
+
