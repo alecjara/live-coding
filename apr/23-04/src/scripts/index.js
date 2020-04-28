@@ -31,6 +31,7 @@ const addToList = () => {
   listAll.forEach((item) => {
     item.appendChild(span);
   });
+  console.log(listAll);
 
   let close = document.querySelectorAll(".close");
 

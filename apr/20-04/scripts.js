@@ -42,9 +42,11 @@ const multiply = () => {
   let userNum = document.querySelector("#num").value;
   //   console.log(userNum);
   let x = "";
+  console.log(x);
   for (let i = 0; i <= 10; i++) {
     x += `${i} * ${userNum} = ${i * userNum} <br>`;
+    console.log(x);
   }
+  console.log(x);
   document.querySelector(".result").innerHTML = x;
-  console.log();
 };
