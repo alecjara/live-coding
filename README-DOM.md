@@ -56,5 +56,5 @@
 - `EventTarget.addEventListener(<namespace>, <callback>)`
 - Mouse Events: `click`, `mouseenter`, `mouseleave`
 - Keyboard Events: `keydown`, `keyup`
-- Build a simple game
+- Project: [Build more features for the simple game](apr/28-04/simple-game)
 
