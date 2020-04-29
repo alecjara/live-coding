@@ -58,3 +58,11 @@
 - Keyboard Events: `keydown`, `keyup`
 - Project: [Build more features for the simple game](apr/28-04/simple-game)
 
+[29/04/2020](apr/29-04)
+- review from this week's lessons.
+- Mouse Events: `click`, `mouseenter`, `mouseleave`
+- `EventTarget.removeEventListener(<namespace>, <function reference>)`
+- Getting the target of the event: `Event.target`
+- `Event.preventDefault()`
+- [weekend-countdown](apr/29-04/weekend-countdown)
+- Project: Simple calculator
