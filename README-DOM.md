@@ -56,6 +56,7 @@
 - `EventTarget.addEventListener(<namespace>, <callback>)`
 - Mouse Events: `click`, `mouseenter`, `mouseleave`
 - Keyboard Events: `keydown`, `keyup`
+
 - Project: [Build more features for the simple game](apr/28-04/simple-game)
 
 [29/04/2020](apr/29-04)
@@ -65,4 +66,14 @@
 - Getting the target of the event: `Event.target`
 - `Event.preventDefault()`
 - [weekend-countdown](apr/29-04/weekend-countdown)
+
 - Project: Simple calculator
+
+[30/04/2020](apr/30-04)
+- Review from previous lessons.
+- `Event.target`
+- Event bubbling concept
+- Common problems with bubbling: `Event.stopPropagation()` as solution
+- Delegating events from parent to child
+
+- Project: Browser-DynamicPills
