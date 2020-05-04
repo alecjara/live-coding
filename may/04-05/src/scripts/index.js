@@ -12,26 +12,20 @@
 
 //JavaScript Object Notation (JSON)
 // It's a file format, and data interchange format, that uses human-readable text to store and transmit data objects
-const recipes = [
-  {
-    id: 1,
-    title: "Sourdough",
-    ingredients: ["water", "flour", "salt", "yeast"],
-    image:
-      "https://amyinthekitchen.com/wp-content/uploads/2018/11/Beginners-Sourdough-Bread-AITK.jpg",
-  },
-  {
-    id: 2,
-    title: "Baguettes",
-    ingredients: ["water", "flour", "salt", "yeast"],
-    image:
-      "https://www.thespruceeats.com/thmb/mCTU2pQ6A-WZ7qQqxH4C8gSbR9E=/1428x1428/smart/filters:no_upscale()/GettyImages-636741221-e5442b2f0b3a4d33a26ebf7deb237fed.jpg",
-  },
-  {
-    id: 3,
-    title: "Sliced bread",
-    ingredients: ["water", "flour"],
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdfaG5Cv4oOjewDMyFitnCpsOBH3ifA5fkycKUy0_y_4Vv2P4IkA",
-  },
-];
+
+import { data } from "./data.js";
+let parsedData = JSON.parse(data);
+console.log(parsedData);
+const section = document.querySelector("#bread");
+parsedData.forEach((obj) => {
+  console.log(obj);
+  let { id, title, ingredients, image } = obj;
+  console.log(id);
+  let card = ` <div id=${id}>
+  <h2> ${title} </h2>
+  <img src=${image} alt=${title}>
+  <h6> ${ingredients} </h6>
+  </div>
+  `;
+  section.innerHTML += card;
+});
