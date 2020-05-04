@@ -20,7 +20,7 @@ const section = document.querySelector("#bread");
 parsedData.forEach((obj) => {
   console.log(obj);
   let { id, title, ingredients, image } = obj;
-  console.log(id);
+  //console.log(id);
   let card = ` <div id=${id}>
   <h2> ${title} </h2>
   <img src=${image} alt=${title}>
