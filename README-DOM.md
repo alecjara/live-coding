@@ -67,7 +67,7 @@
 - `Event.preventDefault()`
 - [weekend-countdown](apr/29-04/weekend-countdown)
 
-- Project: Simple calculator
+- Project: Simple calculator 
 
 [30/04/2020](apr/30-04)
 - Review from previous lessons.
@@ -76,4 +76,16 @@
 - Common problems with bubbling: `Event.stopPropagation()` as solution
 - Delegating events from parent to child
 
-- Project: Browser-DynamicPills
+- Project: Browser-DynamicPills (movie app)
+
+[04/05/2020](may/04-05)
+- Review from last week lessons
+- `<script type=""""module"""" src=""""..."""">`
+- Connecting files: The `import` and `export` keywords""
+""Imports and Exports:
+- `export {<var1>, <var2> [, ...]}`
+- Converting objects to JSON: `JSON.stringify(<object>)`
+- Parsing JSON objects: `JSON.parse(<JSON string>)`
+
+- Project: using JSON in the movie app from last week
+
