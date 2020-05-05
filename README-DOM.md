@@ -89,3 +89,12 @@
 
 - Project: using JSON in the movie app from last week
 
+[05/05/2020](may/05-05)
+Non-Blocking Promises:
+- Blocking vs. Non-Blocking code: A brief example, `window.setTimeout()`
+- Promises: 
+  `new Promise(<function>)`, `Promise.resolve()`, `Promise.then()`
+- Promisifying: Converting `setTimeout()` to a promise
+- Breaking Promises: `Promise.reject()`, `Promise.catch()`
+
+- Project: Promise
