@@ -3,6 +3,7 @@
 ## DOM
 
 [20/04/2020](apr/20-04)
+
 - DOM  aka Document Object Module
 - DOM tree
 - Javascript in the browser: XMl, JSON, jQuery, Ajax, API
@@ -15,6 +16,7 @@
 - Project: The Guessing Game
 
 [21/04/2020](apr/21-04)
+
 - review from yesterday's lesson
 - window.alert === alert
 - document.querySelectorAll() will return A non-live `NodeList` 🧐
@@ -26,6 +28,7 @@
 - Project: Dom-querying
 
 [22/04/2020](apr/22-04)
+
 - review from yesterday's lesson
 - `document.write()` 
 - `document.createElement(<tag name>)`
@@ -35,11 +38,13 @@
 - [Dom-querying-solution](apr/22-04/DOM-Q)
 
 [23/04/2020](apr/23-04)
+
 - review from this week's lessons (`querySelector`, `functions`, `forEach`, `appendChild`)
 - `createTextNode`
 - Project: continues To-Do List with Sass and DOM (extra steps)
 
 [27/04/2020](apr/27-04)
+
 - review from last week's lessons 
 - review from last week's assingment [23/04/2020](apr/23-04)
 - Comparing `Node.previousSibling` and `Element.previousElementSibling`
@@ -52,6 +57,7 @@
 - `Element.matches(<selector string>)`
 
 [28/04/2020](apr/28-04)
+
 - review from yesterday
 - `EventTarget.addEventListener(<namespace>, <callback>)`
 - Mouse Events: `click`, `mouseenter`, `mouseleave`
@@ -60,6 +66,7 @@
 - Project: [Build more features for the simple game](apr/28-04/simple-game)
 
 [29/04/2020](apr/29-04)
+
 - review from this week's lessons.
 - Mouse Events: `click`, `mouseenter`, `mouseleave`
 - `EventTarget.removeEventListener(<namespace>, <function reference>)`
@@ -70,6 +77,7 @@
 - Project: Simple calculator 
 
 [30/04/2020](apr/30-04)
+
 - Review from previous lessons.
 - `Event.target`
 - Event bubbling concept
@@ -79,6 +87,7 @@
 - Project: Browser-DynamicPills (movie app)
 
 [04/05/2020](may/04-05)
+
 - Review from last week lessons
 - `<script type=""""module"""" src=""""..."""">`
 - Connecting files: The `import` and `export` keywords""
@@ -90,7 +99,8 @@
 - Project: using JSON in the movie app from last week
 
 [05/05/2020](may/05-05)
-Non-Blocking Promises:
+
+- Non-Blocking Promises:
 - Blocking vs. Non-Blocking code: A brief example, `window.setTimeout()`
 - Promises: 
   `new Promise(<function>)`, `Promise.resolve()`, `Promise.then()`
