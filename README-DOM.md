@@ -117,4 +117,4 @@
 - Sending data with Fetch: `fetch(<url>, <options>)`, the `method` option
 - `https://jsonplaceholder.typicode.com/`
 
-Project: continue Promise
+- Project: continue Promise
