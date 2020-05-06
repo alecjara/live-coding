@@ -9,6 +9,7 @@ const colorGen = () => {
 };
 const addToList = () => {
   let userInput = document.querySelector("#userText").value;
+  console.log(userInput);
   if (userInput == "") {
     return alert("Write something Please");
   }

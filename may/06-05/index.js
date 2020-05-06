@@ -22,15 +22,17 @@ const fetchJsonFile = () => {
       console.log(data);
       let userCard = "<h2> All Users </h2>";
       data.forEach((user) => {
+        let { id, photo, age, name, city } = user;
         userCard += ` 
-          <div class='card' id=${user.id}>
-            <div class='avatar'> ${user.photo}</div>
-            ${user.name}, <span> ${user.age}</span> old, and lives in <span> ${user.city}</span>
+          <div class='card' id=${id}>
+            <div class='avatar'> ${photo}</div>
+            ${name}, <span> ${age}</span> old, and lives in <span> ${city}</span>
           </div>
           `;
       });
       document.querySelector(".result").innerHTML = userCard;
-    });
+    })
+    .catch((err) => console.log(err));
 };
 // https://jsonplaceholder.typicode.com/
 
