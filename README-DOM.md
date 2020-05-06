@@ -115,6 +115,6 @@
 - Parsing JSON: `response.json()`
 - Using data: `fetch(<url>).then(<callback>)` vs. `await fetch(<url>)`
 - Sending data with Fetch: `fetch(<url>, <options>)`, the `method` option
-- [json - placeholder](https://jsonplaceholder.typicode.com/)
+- `https://jsonplaceholder.typicode.com/`
 
 Project: continue Promise
