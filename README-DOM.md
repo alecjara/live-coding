@@ -108,3 +108,13 @@
 - Breaking Promises: `Promise.reject()`, `Promise.catch()`
 
 - Project: Promise
+
+[06/05/2020](may/06-05)
+
+- Getting info: `window.fetch(<url>)`, the response object overview
+- Parsing JSON: `response.json()`
+- Using data: `fetch(<url>).then(<callback>)` vs. `await fetch(<url>)`
+- Sending data with Fetch: `fetch(<url>, <options>)`, the `method` option
+- [json - placeholder](https://jsonplaceholder.typicode.com/)
+
+Project: continue Promise
