@@ -118,3 +118,12 @@
 - `https://jsonplaceholder.typicode.com/`
 
 - Project: continue Promise
+
+[07/05/2020](may/07-05)
+
+- Review of this week's lessons
+- Problems with promises: scoping issues, endless chain
+- `async` functions, `await` keyword   
+- `try {...} catch(e) {...}`
+
+- Project: continue Browser-fetch-promises 
