@@ -62,8 +62,14 @@ function secondStep(response) {
 
 // Async Await
 async function startSomething() {
-  const response = await stepOne("Ali");
-  console.log("response just arrive");
-  const secondResponse = await secondStep(response);
-  console.log(secondResponse);
+  try {
+    const response = await stepOne("Hadi");
+    console.log("response just arrive");
+    const secondResponse = await secondStep(response);
+    console.log(secondResponse);
+  } catch (err) {
+    console.log(err);
+  }
 }
+
+startSomething();
