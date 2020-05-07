@@ -50,13 +50,20 @@ function secondStep(response) {
     resolve(`We have been waiting for you ${response}`);
   });
 }
-stepOne("Ali")
-  .then((response) => {
-    console.log("response just arrive");
-    return secondStep(response);
-  })
-  .then((secondResponse) => {
-    console.log(secondResponse);
-  })
-  .catch((err) => console.log(err));
+// stepOne("Hadi")
+//   .then((response) => {
+//     console.log("response just arrive");
+//     return secondStep(response);
+//   })
+//   .then((secondResponse) => {
+//     console.log(secondResponse);
+//   })
+//   .catch((err) => console.log(err));
+
 // Async Await
+async function startSomething() {
+  const response = await stepOne("Ali");
+  console.log("response just arrive");
+  const secondResponse = await secondStep(response);
+  console.log(secondResponse);
+}
