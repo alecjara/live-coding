@@ -127,3 +127,5 @@
 - `try {...} catch(e) {...}`
 
 - Project: continue Browser-fetch-promises 
+
+11/02/2020 Day 1 - Group project with SASS, UX/UI.
