@@ -129,3 +129,5 @@
 - Project: continue Browser-fetch-promises 
 
 11/02/2020 Day 1 - Group project with SASS, UX/UI.
+
+12/02/2020 Day 2 - Group project with SASS, UX/UI.
