@@ -133,3 +133,5 @@
 12/05/2020 Day 2 - Group project with SASS, UX/UI.
 
 13/05/2020 Day 3 - Group project with SASS, UX/UI.
+
+14/05/2020 Day 4 - Group project with SASS, UX/UI.
