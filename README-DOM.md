@@ -135,3 +135,5 @@
 13/05/2020 Day 3 - Group project with SASS, UX/UI.
 
 14/05/2020 Day 4 - Group project with SASS, UX/UI.
+
+18/05/2020 Day 5 - Project presentations (Rosetta, Blackjack, Tarot reading, Tarot game, Online shop)
