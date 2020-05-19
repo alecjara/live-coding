@@ -137,3 +137,10 @@
 14/05/2020 Day 4 - Group project with SASS, UX/UI.
 
 18/05/2020 Day 5 - Project presentations (Rosetta, Blackjack, Tarot reading, Tarot game, Online shop)
+
+[19/05/2020](may/19-05)
+
+API review
+- Parsing JSON: `response.json()`
+- Using data: `fetch(<url>).then(<callback>)` vs. `await fetch(<url>)`""
+
