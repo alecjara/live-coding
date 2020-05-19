@@ -60,7 +60,7 @@ class GitHubApi {
       return {
         description: repo.description,
         name: repo.name,
-        url: repo.url,
+        url: repo.html_url,
         createdAt: repo.created_at,
       };
     });
