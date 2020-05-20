@@ -33,7 +33,7 @@ class GitHubApi {
       // getting the value from input field
       const username = this.elements.input.value.trim();
       this.getRepositories(username, (repositories) => {
-        repositories = this.fitterRepositoryResults(repositories);
+        repositories = this.filterRepositoryResults(repositories);
         const markup = this.createListTemplate(repositories);
         this.elements.list.innerHTML = markup;
       });
@@ -55,7 +55,7 @@ class GitHubApi {
         callback(data);
       });
   }
-  fitterRepositoryResults(repositoryData) {
+  filterRepositoryResults(repositoryData) {
     const repositories = repositoryData.map((repo) => {
       return {
         description: repo.description,
@@ -68,13 +68,13 @@ class GitHubApi {
   }
   parsedInitialTemplate() {
     return `
-  <form class="form">
-  <label for="username">Name</label>
-  <input type="text" class="inputText" placeholder="Github username" required>
-  <input type="submit" class="btn" value="Submit"/>
-</form>
-<div class="repositories"></div>
-  `;
+    <form class="form">
+    <label for="username">Name</label>
+    <input type="text" class="inputText" placeholder="Github username" required>
+    <input type="submit" class="btn" value="Submit"/>
+  </form>
+  <div class="repositories"></div>
+    `;
   }
   createListTemplate(repositories) {
     return ` 
@@ -97,3 +97,4 @@ class GitHubApi {
 }
 
 const widget = new GitHubApi({ container: ".result" });
+//const widgetTwo = new GitHubApi({ container: ".number2" });
