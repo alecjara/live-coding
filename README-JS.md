@@ -282,3 +282,9 @@ Review before javascript advanced test
 20/02/2020 - GitHub review 
 - Students working individually on exercises reviewing javascript and github
 - 1 on 1's with students after JavaScript advanced test
+
+[20/05/2020](may/20-05)
+
+- Callback review
+- let's make hot chocolate app
+- Project: refactor chocolate app to async await or promises
