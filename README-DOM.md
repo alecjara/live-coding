@@ -144,3 +144,9 @@ API review
 - Parsing JSON: `response.json()`
 - Using data: `fetch(<url>).then(<callback>)` vs. `await fetch(<url>)`""
 
+[20/05/2020](may/20-05)
+
+Callback review
+
+- let's make hot chocolate app
+- Project: refactor chocolate app to async await or promises
