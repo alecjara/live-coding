@@ -15,7 +15,7 @@
 
 
 
-4. Go to the following link to find the DOM topics with the dates:  
+4. Go to the following link to find the NODE topics with the dates:  
    ## [NODE](README-NODE.md)
 
 
