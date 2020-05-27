@@ -16,27 +16,28 @@ function sum(numArray) {
 function avg(numArray) {
   return sum(numArray) / numArray.length;
 }
-//const [operation, ...rest] = args;
+const [operation, ...rest] = args;
 
-//const numbers = rest.map(parseNum);
+const numbers = rest.map(parseNum);
 // sum 3 5 6 kdfjb
 // avg 45 6 67
-
-// switch (operation) {
-//   case "sum":
-//     console.log(sum(numbers));
-//     break;
-//   case "avg":
-//     console.log(avg(numbers));
-//     break;
-//   case "mid":
-//     // console.log(mid(numbers));
-//     break;
-//   default:
-//     console.log(
-//       "I cannot do this, please type 'sum' to calculate Sum or 'avg' to calculate Avg"
-//     );
-// }
+function med(numArray) {}
+switch (operation) {
+  case "sum":
+    console.log(sum(numbers));
+    break;
+  case "avg":
+    console.log(avg(numbers));
+    break;
+  case "med":
+    //Today’s assessment here
+    console.log(med(numbers));
+    break;
+  default:
+    console.log(
+      "I cannot do this, please type 'sum' to calculate Sum or 'avg' to calculate Avg"
+    );
+}
 // create file
 // writeFile will create or over write
 fs.writeFile(
@@ -65,10 +66,10 @@ fs.readFile("./longText.txt", "utf8", function (err, data) {
 // });
 
 // delete file
-const filePathName = "./hi.txt";
-fs.unlink(filePathName, (err) => {
-  if (err) {
-    console.log(err);
-    return;
-  }
-});
+// const filePathName = "./hi.txt";
+// fs.unlink(filePathName, (err) => {
+//   if (err) {
+//     console.log(err);
+//     return;
+//   }
+// });
