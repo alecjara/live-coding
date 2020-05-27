@@ -17,6 +17,8 @@
 - `(err, data) => { ... }`, `err` first functions
 - `fs.writeFile(<path>, <data>, <callback>)` vs. `fs.writeFileSync(<path>, <data>)`
 
+- Project: Create a program that prints headers to the terminal
+
 [26/05/2020](may/26-05)
 
 - Review from previous lesson
@@ -25,7 +27,10 @@
 - Default exports: `module.exports = <expression to export>`
 - Named exports: `exports.<namespace> = <expression to export>`"
 
+- Project: Add support for an additional operation, ["med" to the switch](may/26-05/index.js)
 
 [27/05/2020](may/27-05)
 
 - Review from previous lessons (module exports)
+- CODEMOTION conferences
+
