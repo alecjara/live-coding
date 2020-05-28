@@ -34,3 +34,8 @@
 - Review from previous lessons (module exports)
 - CODEMOTION conferences
 
+[28/05/2020](may/28-05)
+
+- more ARGS review from previous days. 
+
+- Task: Students working on GitHub accounts (finishing previous projects, deployment of previous projects, adding information to all the README's) 
