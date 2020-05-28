@@ -10,6 +10,7 @@ if (args.includes("--help")) {
   showHelp();
 }
 /*
+Example output:
 'europe' => 'Europe'
 'BERLIN' => 'Berlin'
 'aSIa' => 'Asia'
