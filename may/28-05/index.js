@@ -9,3 +9,8 @@ const args = process.argv.slice(2);
 if (args.includes("--help")) {
   showHelp();
 }
+/*
+'europe' => 'Europe'
+'BERLIN' => 'Berlin'
+'aSIa' => 'Asia'
+*/
