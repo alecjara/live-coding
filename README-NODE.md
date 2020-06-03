@@ -39,3 +39,17 @@
 - more ARGS review from previous days. 
 
 - Task: Students working on GitHub accounts (finishing previous projects, deployment of previous projects, adding information to all the README's) 
+
+[02/06/2020](jun/02-06)
+- `request` and `axios` packages
+- `axios.get(<url>).then(<success cb>).catch(<error cb>).finally(<cb>)`
+- `axios` and `async await`
+
+Task: refactor today's code, get your own api key from open weather.
+
+[03/06/2020](jun/03-06)
+- Review from previous lesson
+
+- `fs.createWriteStream(<path>)`, `.write(<data>)`
+- `fs.createReadStream(<path>)`, `.pipe(<writable stream>)`
+- Read: [Streams in depth](https://jscomplete.com/learn/node-beyond-basics/node-streams#what-exactly-are-streams)
