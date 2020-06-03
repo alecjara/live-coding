@@ -14,7 +14,7 @@ class OpenWeatherClient {
     return axios
       .get(URL)
       .then((res) => res.data)
-      .catch((err) => Promise.reject(err.response));
+      .catch((err) => Promise.reject(err.response.data.message));
   }
   async getWeather(city, country) {
     let endpoint = `weather?q=${city}`;
