@@ -53,3 +53,11 @@ Task: refactor today's code, get your own api key from open weather.
 - `fs.createWriteStream(<path>)`, `.write(<data>)`
 - `fs.createReadStream(<path>)`, `.pipe(<writable stream>)`
 - Read: [Streams in depth](https://jscomplete.com/learn/node-beyond-basics/node-streams#what-exactly-are-streams)
+
+- Task: program-to-compress-files
+
+[04/06/2020](jun/04-06)
+- Solution for yesterday's taks 
+- Creating a (very) simple server: `http.createServer(<callback>)`
+- Working on ports: `server.listen(<port>)` 
+- The request response cycle: `req` object, `res.write()`, `res.end()`"
