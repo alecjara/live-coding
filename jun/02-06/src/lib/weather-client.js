@@ -11,6 +11,7 @@ class OpenWeatherClient {
     const URL =
       url.resolve(this.baseUrl, endpoint) +
       `&units=metric&appid=${this.apiKey}`;
+    // 450f -30 /2 = c
     return axios
       .get(URL)
       .then((res) => res.data)
